@@ -1,0 +1,60 @@
+{
+    "logs": [
+        {
+            "outputFile": "uk.ac.tees.mad.d3617913.app-mergeDebugResources-43:/values-v31/values-v31.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\soura\\AndroidStudioProjects\\ParkEase\\app\\src\\main\\res\\values-v31\\splash.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "59",
+                        "endLines": "8",
+                        "endColumns": "12",
+                        "endOffsets": "426"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "7",
+                        "endColumns": "12",
+                        "endOffsets": "417"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\soura\\.gradle\\caches\\transforms-3\\f6958c3d79143f23b73db2a070cce809\\transformed\\core-splashscreen-1.0.1\\res\\values-v31\\values-v31.xml",
+                    "from": {
+                        "startLines": "-1,-1",
+                        "startColumns": "-1,-1",
+                        "startOffsets": "-1,-1"
+                    },
+                    "to": {
+                        "startLines": "8,15",
+                        "startColumns": "4,4",
+                        "startOffsets": "422,840",
+                        "endLines": "14,19",
+                        "endColumns": "12,12",
+                        "endOffsets": "835,1064"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\soura\\.gradle\\daemon\\8.4\\uk.ac.tees.mad.d3617913.app-mergeDebugResources-43:\\values-v31\\values-v31.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\soura\\.gradle\\caches\\transforms-3\\f6958c3d79143f23b73db2a070cce809\\transformed\\core-splashscreen-1.0.1\\res\\values-v31\\values-v31.xml",
+                    "from": {
+                        "startLines": "2,9",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,473",
+                        "endLines": "8,13",
+                        "endColumns": "12,12",
+                        "endOffsets": "468,697"
+                    }
+                }
+            ]
+        }
+    ]
+}
