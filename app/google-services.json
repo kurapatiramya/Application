@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1040886966589",
+    "project_id": "parkease-b4154",
+    "storage_bucket": "parkease-b4154.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1040886966589:android:4a7377f64c6a82b94dfd54",
+        "android_client_info": {
+          "package_name": "uk.ac.tees.mad.d3617913"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQs8xYWsj8VgCuF38z6fv5-FB3N-vzOUQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

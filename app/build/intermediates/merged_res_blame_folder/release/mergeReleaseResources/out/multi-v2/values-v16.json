@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "uk.ac.tees.mad.d3617913.app-mergeReleaseResources-68:/values-v16/values-v16.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\soura\\.gradle\\caches\\transforms-3\\dcc5c18aa82ea3b3266034596eb8892d\\transformed\\core-1.12.0\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                }
+            ]
+        }
+    ]
+}

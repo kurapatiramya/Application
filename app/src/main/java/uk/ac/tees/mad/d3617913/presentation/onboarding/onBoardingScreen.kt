@@ -18,21 +18,19 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.graphicsLayer
-import androidx.compose.ui.unit.dp
+import androidx.compose.ui.tooling.preview.Preview
 import kotlinx.coroutines.launch
-import uk.ac.tees.mad.d3617913.common.NewsButton
-import uk.ac.tees.mad.d3617913.common.NewsTextButton
+import uk.ac.tees.mad.d3617913.presentation.common.SimpleButton
+import uk.ac.tees.mad.d3617913.presentation.common.SimpleTextButton
 import uk.ac.tees.mad.d3617913.presentation.onboarding.Dimens.MediumPadding2
 import uk.ac.tees.mad.d3617913.presentation.onboarding.Dimens.PageIndicatorWidth
 import uk.ac.tees.mad.d3617913.presentation.onboarding.components.OnboardingPage
 import uk.ac.tees.mad.d3617913.presentation.onboarding.components.PageIndicator
-import kotlin.math.abs
 
 @OptIn(ExperimentalFoundationApi::class)
 @Composable
 fun OnBoardingScreen(
-    event:(OnBoardingEvent) -> Unit
+    event: (OnBoardingEvent) -> Unit
 ) {
     Column(
         modifier = Modifier.fillMaxSize()
@@ -90,12 +88,11 @@ fun OnBoardingScreen(
                 selectedPage = pagerState.currentPage
             )
 
-
             val scope = rememberCoroutineScope()
 
             Row(verticalAlignment = Alignment.CenterVertically) {
                 if (buttonState.value[0].isNotEmpty()) {
-                    NewsTextButton(
+                    SimpleTextButton(
                         text = buttonState.value[0],
                         onClick = {
                             scope.launch {
@@ -105,7 +102,7 @@ fun OnBoardingScreen(
                     )
                 }
 
-                NewsButton(
+                SimpleButton(
                     text = buttonState.value[1],
                     onClick = {
                         scope.launch {
@@ -118,6 +115,12 @@ fun OnBoardingScreen(
                 )
             }
         }
-        Spacer(modifier =Modifier.weight(0.51f))
+        Spacer(modifier = Modifier.weight(0.51f))
     }
+}
+
+@Preview(showBackground = true, showSystemUi = true)
+@Composable
+fun OnBoardingScreenPreview() {
+    OnBoardingScreen(event = {})
 }

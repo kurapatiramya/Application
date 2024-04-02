@@ -25,6 +25,7 @@ import uk.ac.tees.mad.d3617913.presentation.onboarding.Dimens.MediumPadding1
 import uk.ac.tees.mad.d3617913.presentation.onboarding.Dimens.MediumPadding2
 import uk.ac.tees.mad.d3617913.presentation.onboarding.Page
 import uk.ac.tees.mad.d3617913.presentation.onboarding.pages
+import uk.ac.tees.mad.d3617913.ui.theme.ParkEaseTheme
 
 @Composable
 fun OnboardingPage(
@@ -36,27 +37,26 @@ fun OnboardingPage(
             modifier = Modifier
                 .fillMaxWidth()
                 .fillMaxHeight(fraction = 0.6f)
-                .clip(RoundedCornerShape(24.dp)),
+                .clip(RoundedCornerShape(bottomStart = 48.dp, bottomEnd = 48.dp)),
             painter = painterResource(id = page.image),
             contentDescription = null,
-            contentScale = ContentScale.Crop,
+            contentScale = ContentScale.Crop
+        )
 
-
-            )
         Spacer(modifier = Modifier.height(MediumPadding1))
+
         Text(
             text = page.title,
             modifier = Modifier.padding(horizontal = MediumPadding2),
             style = MaterialTheme.typography.displaySmall.copy(fontWeight = FontWeight.Bold),
-            color = colorResource(id = R.color.black)
+            color = colorResource(id = R.color.display_small)
         )
+
         Text(
             text = page.description,
             modifier = Modifier.padding(horizontal = MediumPadding2),
             style = MaterialTheme.typography.bodyMedium,
-            color = colorResource(
-                id = R.color.black
-            )
+            color = colorResource(id = R.color.text_medium)
         )
     }
 }
@@ -64,5 +64,7 @@ fun OnboardingPage(
 @Preview(showSystemUi = true, uiMode = Configuration.UI_MODE_NIGHT_YES, showBackground = true)
 @Composable
 fun OnboardingPagePreview() {
-    OnboardingPage(page = pages[0])
+    ParkEaseTheme {
+        OnboardingPage(page = pages[2])
+    }
 }

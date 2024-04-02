@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "uk.ac.tees.mad.d3617913.app-mergeDebugResources-43:/values-v31/values-v31.xml",
+            "outputFile": "uk.ac.tees.mad.d3617913.app-mergeDebugResources-72:/values-v31/values-v31.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\soura\\AndroidStudioProjects\\ParkEase\\app\\src\\main\\res\\values-v31\\splash.xml",
+                    "source": "C:\\Users\\soura\\AndroidStudioProjects\\ParkEase-Hilt-Error\\app\\src\\main\\res\\values-v31\\splash.xml",
                     "from": {
                         "startLines": "3",
                         "startColumns": "4",
@@ -23,11 +23,14 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\soura\\.gradle\\caches\\transforms-3\\f6958c3d79143f23b73db2a070cce809\\transformed\\core-splashscreen-1.0.1\\res\\values-v31\\values-v31.xml",
+                    "source": "C:\\Users\\soura\\.gradle\\caches\\transforms-3\\f9f75c8b06f7353410caccd34a396120\\transformed\\core-splashscreen-1.0.1\\res\\values-v31\\values-v31.xml",
                     "from": {
-                        "startLines": "-1,-1",
-                        "startColumns": "-1,-1",
-                        "startOffsets": "-1,-1"
+                        "startLines": "2,9",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,473",
+                        "endLines": "8,13",
+                        "endColumns": "12,12",
+                        "endOffsets": "468,697"
                     },
                     "to": {
                         "startLines": "8,15",
@@ -36,22 +39,6 @@
                         "endLines": "14,19",
                         "endColumns": "12,12",
                         "endOffsets": "835,1064"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "C:\\Users\\soura\\.gradle\\daemon\\8.4\\uk.ac.tees.mad.d3617913.app-mergeDebugResources-43:\\values-v31\\values-v31.xml",
-            "map": [
-                {
-                    "source": "C:\\Users\\soura\\.gradle\\caches\\transforms-3\\f6958c3d79143f23b73db2a070cce809\\transformed\\core-splashscreen-1.0.1\\res\\values-v31\\values-v31.xml",
-                    "from": {
-                        "startLines": "2,9",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,473",
-                        "endLines": "8,13",
-                        "endColumns": "12,12",
-                        "endOffsets": "468,697"
                     }
                 }
             ]

@@ -1,10 +1,27 @@
 {
     "logs": [
         {
-            "outputFile": "uk.ac.tees.mad.d3617913.app-mergeDebugResources-43:/values-night-v8/values-night-v8.xml",
+            "outputFile": "uk.ac.tees.mad.d3617913.app-mergeDebugResources-72:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\soura\\AndroidStudioProjects\\ParkEase\\app\\src\\main\\res\\values-night\\splash.xml",
+                    "source": "C:\\Users\\soura\\AndroidStudioProjects\\ParkEase-Hilt-Error\\app\\src\\main\\res\\values-night\\color.xml",
+                    "from": {
+                        "startLines": "5,2,6,7,8,3,4",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "203,57,243,295,342,108,157",
+                        "endColumns": "38,49,50,45,41,47,44",
+                        "endOffsets": "237,102,289,336,379,151,197"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,94,144,195,241,283,331",
+                        "endColumns": "38,49,50,45,41,47,44",
+                        "endOffsets": "89,139,190,236,278,326,371"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\soura\\AndroidStudioProjects\\ParkEase-Hilt-Error\\app\\src\\main\\res\\values-night\\splash.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -14,55 +31,16 @@
                         "endOffsets": "347"
                     },
                     "to": {
-                        "startLines": "2",
+                        "startLines": "9",
                         "startColumns": "4",
-                        "startOffsets": "55",
-                        "endLines": "6",
+                        "startOffsets": "376",
+                        "endLines": "13",
                         "endColumns": "12",
-                        "endOffsets": "341"
+                        "endOffsets": "662"
                     }
                 },
                 {
-                    "source": "C:\\Users\\soura\\.gradle\\caches\\transforms-3\\f6958c3d79143f23b73db2a070cce809\\transformed\\core-splashscreen-1.0.1\\res\\values-night-v8\\values-night-v8.xml",
-                    "from": {
-                        "startLines": "-1",
-                        "startColumns": "-1",
-                        "startOffsets": "-1"
-                    },
-                    "to": {
-                        "startLines": "7",
-                        "startColumns": "4",
-                        "startOffsets": "346",
-                        "endColumns": "85",
-                        "endOffsets": "427"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "C:\\Users\\soura\\.gradle\\daemon\\8.4\\uk.ac.tees.mad.d3617913.app-mergeDebugResources-43:\\values-night-v8\\values-night-v8.xml",
-            "map": [
-                {
-                    "source": "C:\\Users\\soura\\AndroidStudioProjects\\ParkEase\\app\\src\\main\\res\\values-night\\splash.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "57",
-                        "endLines": "6",
-                        "endColumns": "12",
-                        "endOffsets": "352"
-                    },
-                    "to": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endLines": "6",
-                        "endColumns": "12",
-                        "endOffsets": "346"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\soura\\.gradle\\caches\\transforms-3\\f6958c3d79143f23b73db2a070cce809\\transformed\\core-splashscreen-1.0.1\\res\\values-night-v8\\values-night-v8.xml",
+                    "source": "C:\\Users\\soura\\.gradle\\caches\\transforms-3\\f9f75c8b06f7353410caccd34a396120\\transformed\\core-splashscreen-1.0.1\\res\\values-night-v8\\values-night-v8.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -71,11 +49,11 @@
                         "endOffsets": "136"
                     },
                     "to": {
-                        "startLines": "7",
+                        "startLines": "14",
                         "startColumns": "4",
-                        "startOffsets": "351",
+                        "startOffsets": "667",
                         "endColumns": "85",
-                        "endOffsets": "432"
+                        "endOffsets": "748"
                     }
                 }
             ]
