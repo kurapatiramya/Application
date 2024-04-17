@@ -8,7 +8,19 @@ animator fragment_open_enter
 animator fragment_open_exit
 attr action
 attr alpha
+attr ambientEnabled
 attr argType
+attr backgroundColor
+attr buttonSize
+attr cameraBearing
+attr cameraMaxZoomPreference
+attr cameraMinZoomPreference
+attr cameraTargetLat
+attr cameraTargetLng
+attr cameraTilt
+attr cameraZoom
+attr circleCrop
+attr colorScheme
 attr data
 attr dataPattern
 attr destination
@@ -31,9 +43,18 @@ attr fontStyle
 attr fontVariationSettings
 attr fontWeight
 attr graph
+attr imageAspectRatio
+attr imageAspectRatioAdjust
 attr lStar
+attr latLngBoundsNorthEastLatitude
+attr latLngBoundsNorthEastLongitude
+attr latLngBoundsSouthWestLatitude
+attr latLngBoundsSouthWestLongitude
 attr launchSingleTop
 attr layoutManager
+attr liteMode
+attr mapId
+attr mapType
 attr mimeType
 attr navGraph
 attr nestedScrollViewStyle
@@ -49,6 +70,7 @@ attr recyclerViewStyle
 attr restoreState
 attr reverseLayout
 attr route
+attr scopeUris
 attr shortcutMatchRequired
 attr spanCount
 attr splashScreenIconSize
@@ -56,23 +78,49 @@ attr stackFromEnd
 attr startDestination
 attr targetPackage
 attr ttcIndex
+attr uiCompass
+attr uiMapToolbar
+attr uiRotateGestures
+attr uiScrollGestures
+attr uiScrollGesturesDuringRotateOrZoom
+attr uiTiltGestures
+attr uiZoomControls
+attr uiZoomGestures
 attr uri
+attr useViewLifecycle
 attr windowSplashScreenAnimatedIcon
 attr windowSplashScreenAnimationDuration
 attr windowSplashScreenBackground
 attr windowSplashScreenIconBackgroundColor
+attr zOrderOnTop
 color androidx_core_ripple_material_light
 color androidx_core_secondary_text_default_material_light
 color black
 color body
+color browser_actions_bg_grey
+color browser_actions_divider_color
+color browser_actions_text_color
+color browser_actions_title_color
 color call_notification_answer_color
 color call_notification_decline_color
+color card_background
 color colorAccent
 color colorGrey
 color colorPrimary
 color colorSecondary
 color colorText
 color colorWhite
+color common_google_signin_btn_text_dark
+color common_google_signin_btn_text_dark_default
+color common_google_signin_btn_text_dark_disabled
+color common_google_signin_btn_text_dark_focused
+color common_google_signin_btn_text_dark_pressed
+color common_google_signin_btn_text_light
+color common_google_signin_btn_text_light_default
+color common_google_signin_btn_text_light_disabled
+color common_google_signin_btn_text_light_focused
+color common_google_signin_btn_text_light_pressed
+color common_google_signin_btn_tint
 color display_small
 color input_background
 color notification_action_color_filter
@@ -82,13 +130,18 @@ color purple_200
 color purple_500
 color purple_700
 color shimmer
+color start_color
 color teal_200
 color teal_700
 color text_medium
 color text_title
+color top_card_background
+color top_card_background_light
 color vector_tint_color
 color vector_tint_theme_color
 color white
+dimen browser_actions_context_menu_max_width
+dimen browser_actions_context_menu_min_padding
 dimen compat_button_inset_horizontal_material
 dimen compat_button_inset_vertical_material
 dimen compat_button_padding_horizontal_material
@@ -124,8 +177,32 @@ dimen splashscreen_icon_mask_stroke_with_background
 dimen splashscreen_icon_size
 dimen splashscreen_icon_size_no_background
 dimen splashscreen_icon_size_with_background
+drawable abc_vector_test
+drawable amu_bubble_mask
+drawable amu_bubble_shadow
+drawable common_full_open_on_phone
+drawable common_google_signin_btn_icon_dark
+drawable common_google_signin_btn_icon_dark_focused
+drawable common_google_signin_btn_icon_dark_normal
+drawable common_google_signin_btn_icon_dark_normal_background
+drawable common_google_signin_btn_icon_disabled
+drawable common_google_signin_btn_icon_light
+drawable common_google_signin_btn_icon_light_focused
+drawable common_google_signin_btn_icon_light_normal
+drawable common_google_signin_btn_icon_light_normal_background
+drawable common_google_signin_btn_text_dark
+drawable common_google_signin_btn_text_dark_focused
+drawable common_google_signin_btn_text_dark_normal
+drawable common_google_signin_btn_text_dark_normal_background
+drawable common_google_signin_btn_text_disabled
+drawable common_google_signin_btn_text_light
+drawable common_google_signin_btn_text_light_focused
+drawable common_google_signin_btn_text_light_normal
+drawable common_google_signin_btn_text_light_normal_background
 drawable compat_splash_screen
 drawable compat_splash_screen_no_icon_background
+drawable googleg_disabled_color_18
+drawable googleg_standard_color_18
 drawable ic_call_answer
 drawable ic_call_answer_low
 drawable ic_call_answer_video
@@ -138,6 +215,7 @@ drawable ic_lock
 drawable icon2
 drawable icon_background
 drawable icon_no_bg
+drawable level_png
 drawable lock
 drawable message
 drawable notification_action_background
@@ -156,7 +234,13 @@ drawable notify_panel_notification_icon_bg
 drawable onboarding1
 drawable onboarding2
 drawable onboarding3
+drawable parking_1
+drawable parking_2
+drawable parking_3
+drawable parking_4
+drawable parking_5
 drawable profile
+drawable profile_pic_2
 id accessibility_action_clickable_span
 id accessibility_custom_action_0
 id accessibility_custom_action_1
@@ -195,28 +279,44 @@ id action_divider
 id action_image
 id action_text
 id actions
+id adjust_height
+id adjust_width
+id amu_text
 id androidx_compose_ui_view_composition_context
 id async
+id auto
 id blocking
+id browser_actions_header_text
+id browser_actions_menu_item_icon
+id browser_actions_menu_item_text
+id browser_actions_menu_items
+id browser_actions_menu_view
 id chronometer
+id coil_request_manager
 id compose_view_saveable_id_tag
 id consume_window_insets_tag
+id dark
 id dialog_button
 id edit_text_id
 id forever
 id fragment_container_view_tag
 id hide_ime_id
 id hide_in_inspector_tag
+id hybrid
 id icon
 id icon_group
+id icon_only
 id info
 id inspection_slot_table_set
 id is_pooling_container_tag
 id italic
 id item_touch_helper_previous_elevation
+id light
 id line1
 id line3
+id maps_compose_nodraw_container_view
 id nav_controller_view_tag
+id none
 id normal
 id notification_background
 id notification_main_column
@@ -225,8 +325,10 @@ id pooling_container_listener_holder_tag
 id report_drawn
 id right_icon
 id right_side
+id satellite
 id special_effects_controller_view_tag
 id splashscreen_icon_view
+id standard
 id tag_accessibility_actions
 id tag_accessibility_clickable_spans
 id tag_accessibility_heading
@@ -240,6 +342,7 @@ id tag_transition_group
 id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
 id tag_window_insets_animation_callback
+id terrain
 id text
 id text2
 id time
@@ -249,10 +352,18 @@ id view_tree_on_back_pressed_dispatcher_owner
 id view_tree_saved_state_registry_owner
 id view_tree_view_model_store_owner
 id visible_removing_fragment_view_tag
+id webview
+id wide
+id window
 id wrapped_composition_tag
 integer default_icon_animation_duration
 integer google_play_services_version
 integer status_bar_notification_info_maxnum
+layout amu_info_window
+layout amu_text_bubble
+layout amu_webview
+layout browser_actions_context_menu_page
+layout browser_actions_context_menu_row
 layout custom_dialog
 layout ime_base_split_test_activity
 layout ime_secondary_split_test_activity
@@ -278,12 +389,33 @@ string call_notification_ongoing_text
 string call_notification_screening_text
 string close_drawer
 string close_sheet
+string common_google_play_services_enable_button
+string common_google_play_services_enable_text
+string common_google_play_services_enable_title
+string common_google_play_services_install_button
+string common_google_play_services_install_text
+string common_google_play_services_install_title
+string common_google_play_services_notification_channel_name
+string common_google_play_services_notification_ticker
 string common_google_play_services_unknown_issue
+string common_google_play_services_unsupported_text
+string common_google_play_services_update_button
+string common_google_play_services_update_text
+string common_google_play_services_update_title
+string common_google_play_services_updating_text
+string common_google_play_services_wear_update_text
+string common_open_on_phone
+string common_signin_button_text
+string common_signin_button_text_long
+string copy_toast_msg
 string create_account
 string default_error_message
 string default_popup_window_title
 string dropdown_menu
 string email
+string fallback_menu_item_copy_link
+string fallback_menu_item_open_in_browser
+string fallback_menu_item_share_link
 string first_name
 string forgot_password
 string gcm_defaultSenderId
@@ -360,8 +492,6 @@ string menu
 string navigation_header
 string navigation_menu
 string not_selected
-string off
-string on
 string or
 string password
 string project_id
@@ -370,16 +500,18 @@ string range_start
 string register
 string selected
 string show_password
+string state_off
+string state_on
 string status_bar_notification_info_overflow
 string switch_role
 string tab
 string template_percent
 string terms_and_conditions
 string terms_and_conditions_header
+string title_activity_home
 string tooltip_description
 string tooltip_label
 string welcome
-style App_Starting_Theme
 style Base_Theme_SplashScreen
 style Base_Theme_SplashScreen_DayNight
 style Base_Theme_SplashScreen_Light
@@ -401,7 +533,13 @@ style Theme_SplashScreen_Common
 style Theme_SplashScreen_IconBackground
 style Widget_Compat_NotificationActionContainer
 style Widget_Compat_NotificationActionText
+style amu_Bubble_TextAppearance_Dark
+style amu_Bubble_TextAppearance_Light
+style amu_ClusterIcon_TextAppearance
 styleable ActivityNavigator android_name action data dataPattern targetPackage
+styleable AnimatedStateListDrawableCompat android_dither android_visible android_variablePadding android_constantSize android_enterFadeDuration android_exitFadeDuration
+styleable AnimatedStateListDrawableItem android_id android_drawable
+styleable AnimatedStateListDrawableTransition android_drawable android_toId android_fromId android_reversible
 styleable Capability queryPatterns shortcutMatchRequired
 styleable ColorStateListItem android_color android_alpha android_lStar alpha lStar
 styleable FontFamily fontProviderAuthority fontProviderCerts fontProviderFetchStrategy fontProviderFetchTimeout fontProviderPackage fontProviderQuery fontProviderSystemFontFamily
@@ -410,6 +548,8 @@ styleable Fragment android_name android_id android_tag
 styleable FragmentContainerView android_name android_tag
 styleable GradientColor android_startColor android_endColor android_type android_centerX android_centerY android_gradientRadius android_tileMode android_centerColor android_startX android_startY android_endX android_endY
 styleable GradientColorItem android_color android_offset
+styleable LoadingImageView circleCrop imageAspectRatio imageAspectRatioAdjust
+styleable MapAttrs ambientEnabled backgroundColor cameraBearing cameraMaxZoomPreference cameraMinZoomPreference cameraTargetLat cameraTargetLng cameraTilt cameraZoom latLngBoundsNorthEastLatitude latLngBoundsNorthEastLongitude latLngBoundsSouthWestLatitude latLngBoundsSouthWestLongitude liteMode mapId mapType uiCompass uiMapToolbar uiRotateGestures uiScrollGestures uiScrollGesturesDuringRotateOrZoom uiTiltGestures uiZoomControls uiZoomGestures useViewLifecycle zOrderOnTop
 styleable NavAction android_id destination enterAnim exitAnim launchSingleTop popEnterAnim popExitAnim popUpTo popUpToInclusive popUpToSaveState restoreState
 styleable NavArgument android_name android_defaultValue argType nullable
 styleable NavDeepLink android_autoVerify action mimeType uri
@@ -418,6 +558,10 @@ styleable NavHost navGraph
 styleable NavInclude graph
 styleable Navigator android_label android_id route
 styleable RecyclerView android_orientation android_clipToPadding android_descendantFocusability fastScrollEnabled fastScrollHorizontalThumbDrawable fastScrollHorizontalTrackDrawable fastScrollVerticalThumbDrawable fastScrollVerticalTrackDrawable layoutManager reverseLayout spanCount stackFromEnd
+styleable SignInButton buttonSize colorScheme scopeUris
+styleable StateListDrawable android_dither android_visible android_variablePadding android_constantSize android_enterFadeDuration android_exitFadeDuration
+styleable StateListDrawableItem android_drawable
 xml backup_rules
 xml data_extraction_rules
 xml ga_ad_services_config
+xml image_share_filepaths

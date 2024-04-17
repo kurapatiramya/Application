@@ -9,7 +9,7 @@ import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach
 import uk.ac.tees.mad.d3617913.domain.usecases.app_entry.AppEntryUseCases
-import uk.ac.tees.mad.d3617913.presentation.navgraph.Route
+import uk.ac.tees.mad.d3617913.presentation.navigation.Route
 import javax.inject.Inject
 
 @HiltViewModel

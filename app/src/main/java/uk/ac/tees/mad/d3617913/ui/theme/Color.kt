@@ -12,6 +12,7 @@ val Pink40 = Color(0xFF7D5260)
 val BlueGray = Color(0xFFA0A3BD)
 val BgColor = Color(0xFFF7F8F8)
 
-val Purple = Color(0xFF902FCD)
+val Purple = Color(0xFF961AE4)
 val Grey = Color(0xFF242424)
 val White = Color(0xFFF6F6F6)
+val CardPurple = Color(0x007DFCFF)

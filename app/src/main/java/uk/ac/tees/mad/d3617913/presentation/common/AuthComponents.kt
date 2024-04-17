@@ -2,6 +2,7 @@ package uk.ac.tees.mad.d3617913.presentation.common
 
 import android.graphics.drawable.shapes.Shape
 import android.util.Log
+import android.util.Size
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
@@ -66,34 +67,44 @@ import uk.ac.tees.mad.d3617913.R
 import uk.ac.tees.mad.d3617913.ui.theme.componentShape
 
 @Composable
-fun NormalTextComponent(value: String) {
+fun NormalTextComponent(
+    value: String,
+    fontSize:TextUnit = 24.sp,
+    textColor: Color = colorResource(id = R.color.colorText),
+    textAlign: TextAlign = TextAlign.Center
+) {
     Text(
         text = value,
         modifier = Modifier
-            .fillMaxWidth()
+//            .fillMaxWidth()
             .heightIn(min = 40.dp),
         style = TextStyle(
-            fontSize = 24.sp,
+            fontSize =fontSize,
             fontWeight = FontWeight.Normal,
             fontStyle = FontStyle.Normal
-        ), color = colorResource(id = R.color.colorText),
-        textAlign = TextAlign.Center
+        ), color = textColor,
+        textAlign = textAlign
     )
 }
 
 @Composable
-fun HeadingTextComponent(value: String) {
+fun HeadingTextComponent(
+    value: String,
+    fontSize:TextUnit = 30.sp,
+    textColor: Color = colorResource(id = R.color.colorText),
+    textAlign: TextAlign = TextAlign.Center
+) {
     Text(
         text = value,
         modifier = Modifier
-            .fillMaxWidth()
+//            .fillMaxWidth()
             .heightIn(),
         style = TextStyle(
-            fontSize = 30.sp,
+            fontSize = fontSize,
             fontWeight = FontWeight.Bold,
             fontStyle = FontStyle.Normal
-        ), color = colorResource(id = R.color.colorText),
-        textAlign = TextAlign.Center
+        ), color = textColor,
+        textAlign = textAlign
     )
 }
 
@@ -116,12 +127,12 @@ fun MyTextFieldComponent(
             .clip(componentShape.small),
         label = { Text(text = labelValue) },
         colors = OutlinedTextFieldDefaults.colors(
-            focusedTextColor = colorResource(id = R.color.black),
+            focusedTextColor = colorResource(id = R.color.colorPrimary),
             unfocusedTextColor = colorResource(id = R.color.black),
-            cursorColor = colorResource(id = R.color.black),
-            focusedBorderColor = colorResource(id = R.color.black),
+            cursorColor = colorResource(id = R.color.colorPrimary),
+            focusedBorderColor = colorResource(id = R.color.colorPrimary),
             unfocusedBorderColor = colorResource(id = R.color.black),
-            focusedLabelColor = colorResource(id = R.color.black),
+            focusedLabelColor = colorResource(id = R.color.colorPrimary),
             unfocusedLabelColor = colorResource(id = R.color.black),
         ),
         keyboardOptions = KeyboardOptions(imeAction = ImeAction.Next),
@@ -287,11 +298,16 @@ fun ButtonComponent(value: String, onButtonClicked: () -> Unit, isEnabled: Boole
         Box(
             modifier = Modifier
                 .fillMaxWidth()
-                .heightIn(48.dp),
-//                .background(
-////                    brush = Brush.horizontalGradient(listOf(Secondary, Primary)),
-//                    shape = RoundedCornerShape(50.dp)
-//                ),
+                .heightIn(48.dp)
+                .background(
+                    brush = Brush.horizontalGradient(
+                        listOf(
+                            colorResource(id = R.color.top_card_background),
+                            colorResource(id = R.color.colorSecondary)
+                        )
+                    ),
+                    shape = RoundedCornerShape(50.dp)
+                ),
             contentAlignment = Alignment.Center
         ) {
             Text(
@@ -346,7 +362,7 @@ fun ClickableLoginTextComponent(tryingToLogin: Boolean = true, onTextSelected: (
 
     val annotatedString = buildAnnotatedString {
         append(initialText)
-        withStyle(style = SpanStyle(color = colorResource(id =R.color.colorPrimary))) {
+        withStyle(style = SpanStyle(color = colorResource(id = R.color.colorPrimary))) {
             pushStringAnnotation(tag = loginText, annotation = loginText)
             append(loginText)
         }
@@ -357,7 +373,7 @@ fun ClickableLoginTextComponent(tryingToLogin: Boolean = true, onTextSelected: (
             .fillMaxWidth()
             .heightIn(min = 40.dp),
         style = TextStyle(
-            fontSize = 21.sp,
+            fontSize = 18.sp,
             fontWeight = FontWeight.Normal,
             fontStyle = FontStyle.Normal,
             textAlign = TextAlign.Center
@@ -390,7 +406,7 @@ fun UnderLinedTextComponent(value: String) {
             fontWeight = FontWeight.Normal,
             fontStyle = FontStyle.Normal
         ), color = colorResource(id = R.color.colorGrey),
-        textAlign = TextAlign.Center,
+        textAlign = TextAlign.End,
         textDecoration = TextDecoration.Underline
     )
 
@@ -454,7 +470,7 @@ fun NavigationDrawerHeader(value: String?) {
     ) {
 
         NavigationDrawerText(
-            title = value ?: "Navigation Header", 28.sp, colorResource(id =R.color.colorAccent)
+            title = value ?: "Navigation Header", 28.sp, colorResource(id = R.color.colorAccent)
         )
 
     }
@@ -514,7 +530,7 @@ fun NavigationDrawerText(title: String, textUnit: TextUnit, color: Color) {
             fontSize = textUnit,
             fontStyle = FontStyle.Normal,
             shadow = Shadow(
-                color = colorResource(id =R.color.colorPrimary),
+                color = colorResource(id = R.color.colorPrimary),
                 offset = shadowOffset, 2f
             )
         )

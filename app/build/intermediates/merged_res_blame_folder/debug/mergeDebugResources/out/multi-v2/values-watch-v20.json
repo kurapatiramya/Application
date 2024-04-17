@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "uk.ac.tees.mad.d3617913.app-mergeDebugResources-72:/values-watch-v20/values-watch-v20.xml",
+            "outputFile": "uk.ac.tees.mad.d3617913.app-mergeDebugResources-81:/values-watch-v20/values-watch-v20.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\soura\\.gradle\\caches\\transforms-3\\f9f75c8b06f7353410caccd34a396120\\transformed\\core-splashscreen-1.0.1\\res\\values-watch-v20\\values-watch-v20.xml",
+                    "source": "C:\\Users\\soura\\.gradle\\caches\\transforms-3\\8a2532cc718d5234a5d6c575743d27f6\\transformed\\core-splashscreen-1.0.1\\res\\values-watch-v20\\values-watch-v20.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",

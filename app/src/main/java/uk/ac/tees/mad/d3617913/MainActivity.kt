@@ -1,6 +1,10 @@
 package uk.ac.tees.mad.d3617913
 
+import android.animation.ObjectAnimator
+import android.content.Intent
 import android.os.Bundle
+import android.view.View
+import android.view.animation.OvershootInterpolator
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.viewModels
@@ -8,40 +12,76 @@ import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
-import androidx.compose.material3.Text
-import androidx.compose.runtime.Composable
 import androidx.compose.runtime.SideEffect
+import androidx.compose.runtime.collectAsState
+import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.tooling.preview.Preview
+import androidx.core.animation.doOnEnd
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import androidx.core.view.WindowCompat
-import androidx.hilt.navigation.compose.hiltViewModel
+import androidx.lifecycle.ViewModelProvider
 import com.google.accompanist.systemuicontroller.rememberSystemUiController
+import com.google.firebase.auth.FirebaseAuth
 import dagger.hilt.android.AndroidEntryPoint
-import dagger.hilt.android.lifecycle.HiltViewModel
-import uk.ac.tees.mad.d3617913.domain.usecases.app_entry.AppEntryUseCases
-import uk.ac.tees.mad.d3617913.presentation.navgraph.NavGraph
-import uk.ac.tees.mad.d3617913.presentation.onboarding.OnBoardingScreen
-import uk.ac.tees.mad.d3617913.presentation.onboarding.OnBoardingViewModel
+import uk.ac.tees.mad.d3617913.data.LoginViewModel
 import uk.ac.tees.mad.d3617913.ui.theme.ParkEaseTheme
-import javax.inject.Inject
 
 @AndroidEntryPoint
 class MainActivity : ComponentActivity() {
 
     private val viewModel by viewModels<MainViewModel>()
+
+    private val loginViewModel by lazy {
+        ViewModelProvider(this)[LoginViewModel::class.java]
+    }
+
+    private val currentUser = FirebaseAuth.getInstance().currentUser
+
+    override fun onStart() {
+        super.onStart()
+        if (currentUser != null) {
+            startActivity(Intent(this, HomeActivity::class.java))
+            finish()
+        }
+    }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        WindowCompat.setDecorFitsSystemWindows(window, false)
+        WindowCompat.setDecorFitsSystemWindows(window, true)
         installSplashScreen().apply {
             setKeepOnScreenCondition {
                 viewModel.splashCondition.value
             }
+
+            //Added from music app
+            setOnExitAnimationListener { screen ->
+                val zoomX = ObjectAnimator.ofFloat(
+                    screen.iconView,
+                    View.SCALE_X,
+                    0.4f,
+                    0.0f
+                )
+                zoomX.interpolator = OvershootInterpolator()
+                zoomX.duration = 500L
+                zoomX.doOnEnd { screen.remove() }
+
+                val zoomY = ObjectAnimator.ofFloat(
+                    screen.iconView,
+                    View.SCALE_Y,
+                    0.4f,
+                    0.0f
+                )
+                zoomY.interpolator = OvershootInterpolator()
+                zoomY.duration = 500L
+                zoomY.doOnEnd { screen.remove() }
+                zoomX.start()
+                zoomY.start()
+            }
         }
 
         setContent {
-            ParkEaseTheme(dynamicColor = false) {
+            ParkEaseTheme(darkTheme = false, dynamicColor = false) {
 
                 val isSystemInDarkMode = isSystemInDarkTheme()
                 val systemController = rememberSystemUiController()
@@ -58,8 +98,17 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    val startDestination = viewModel.startDestination.value
-                    NavGraph(startDestination = startDestination)
+                    val loginSuccess by loginViewModel.logInSuccess.collectAsState()
+                    if (loginSuccess) {
+                        startActivity(Intent(this, HomeActivity::class.java))
+                        finish()
+                    }
+                    ParkEaseTheme(
+                        darkTheme = false, dynamicColor = false
+                    ) {
+                        ParkEaseApp()
+                    }
+
                 }
             }
         }

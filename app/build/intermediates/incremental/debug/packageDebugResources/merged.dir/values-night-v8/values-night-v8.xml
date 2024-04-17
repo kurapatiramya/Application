@@ -7,9 +7,4 @@
     <color name="shimmer">#414243</color>
     <color name="text_medium">#FFB0B3B8</color>
     <color name="text_title">#E4E6EB</color>
-    <style name="App.Starting.Theme" parent="Theme.SplashScreen">
-        <item name="windowSplashScreenBackground">#1C1E21</item>
-        <item name="windowSplashScreenAnimatedIcon">@drawable/icon2</item>
-        <item name="postSplashScreenTheme">@style/Theme.ParkEase</item>
-    </style>
 </resources>

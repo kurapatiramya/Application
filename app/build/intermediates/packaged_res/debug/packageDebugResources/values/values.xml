@@ -2,8 +2,9 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="body">#4E4B66</color>
+    <color name="card_background">#D7CDED</color>
     <color name="colorAccent">#C58BF2</color>
-    <color name="colorGrey">#7B6F72</color>
+    <color name="colorGrey">#EFE9EA</color>
     <color name="colorPrimary">#92A3FD</color>
     <color name="colorSecondary">#9DCEFF</color>
     <color name="colorText">#1D1617</color>
@@ -15,10 +16,13 @@
     <color name="purple_500">#FF6200EE</color>
     <color name="purple_700">#FF3700B3</color>
     <color name="shimmer">#C3C3C3</color>
+    <color name="start_color">#FFA200</color>
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
     <color name="text_medium">#FF4E4B66</color>
     <color name="text_title">#000000</color>
+    <color name="top_card_background">#773FFF</color>
+    <color name="top_card_background_light">#B69FED</color>
     <color name="white">#FFFFFFFF</color>
     <string name="app_name">ParkEase</string>
     <string name="create_account">Create an Account </string>
@@ -46,12 +50,8 @@
     <string name="show_password">Show Password</string>
     <string name="terms_and_conditions">By continuing you accept our Privacy Policy and Term of Use</string>
     <string name="terms_and_conditions_header">Term of Use</string>
+    <string name="title_activity_home">HomeActivity\n</string>
     <string name="welcome">Welcome Back</string>
-    <style name="App.Starting.Theme" parent="Theme.SplashScreen">
-        <item name="windowSplashScreenBackground">#FFFF</item>
-        <item name="windowSplashScreenAnimatedIcon">@drawable/icon2</item>
-        <item name="postSplashScreenTheme">@style/Theme.ParkEase</item>
-    </style>
     <style name="Theme.ParkEase" parent="android:Theme.Material.Light.NoActionBar">
 
     </style>
