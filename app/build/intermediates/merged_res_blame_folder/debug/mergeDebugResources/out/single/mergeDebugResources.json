@@ -116,6 +116,10 @@
         "source": "uk.ac.tees.mad.d3617913.app-main-85:/drawable/message.xml"
     },
     {
+        "merged": "uk.ac.tees.mad.d3617913.app-debug-83:/drawable_pin.xml.flat",
+        "source": "uk.ac.tees.mad.d3617913.app-main-85:/drawable/pin.xml"
+    },
+    {
         "merged": "uk.ac.tees.mad.d3617913.app-debug-83:/mipmap-hdpi_ic_launcher_round.webp.flat",
         "source": "uk.ac.tees.mad.d3617913.app-main-85:/mipmap-hdpi/ic_launcher_round.webp"
     },

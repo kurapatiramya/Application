@@ -239,6 +239,7 @@ drawable parking_2
 drawable parking_3
 drawable parking_4
 drawable parking_5
+drawable pin
 drawable profile
 drawable profile_pic_2
 id accessibility_action_clickable_span

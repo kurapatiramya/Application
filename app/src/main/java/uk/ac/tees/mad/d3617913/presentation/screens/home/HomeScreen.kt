@@ -22,8 +22,6 @@ import uk.ac.tees.mad.d3617913.presentation.common.HomeTopCard
 import uk.ac.tees.mad.d3617913.presentation.common.ParkingSpotCard
 import uk.ac.tees.mad.d3617913.presentation.navigation.Screen
 import uk.ac.tees.mad.d3617913.presentation.navigation.ScreenRouter
-import uk.ac.tees.mad.d3617913.presentation.navigation.SystemBackButtonHandler
-import kotlin.system.exitProcess
 
 @Composable
 fun HomeScreen() {
@@ -56,9 +54,7 @@ fun HomeScreen() {
 
             LazyColumn(modifier = Modifier.padding(8.dp)) {
                 items(parkingSpots.size) { index ->
-                    ParkingSpotCard(parkingSpot = parkingSpots[index]) {
-                        ScreenRouter.navigateTo(Screen.BookingScreen(parkingSpots[index]))
-                    }
+                    ParkingSpotCard(parkingSpot = parkingSpots[index], onClick = { ScreenRouter.navigateTo(Screen.BookingScreen(parkingSpots[index])) })
                     Spacer(modifier = Modifier.height(16.dp))
                 }
             }

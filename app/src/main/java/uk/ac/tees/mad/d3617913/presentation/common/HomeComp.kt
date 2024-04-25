@@ -169,7 +169,7 @@ fun HomeTopCard() {
 }
 
 @Composable
-fun ParkingSpotCard(parkingSpot: ParkingSpot,onClick:()->Unit) {
+fun ParkingSpotCard(parkingSpot: ParkingSpot, onClick: () -> Unit) {
     Card(
         modifier = Modifier
             .fillMaxWidth()
