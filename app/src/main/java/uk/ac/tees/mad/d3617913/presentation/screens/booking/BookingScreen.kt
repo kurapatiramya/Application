@@ -1,7 +1,6 @@
 package uk.ac.tees.mad.d3617913.presentation.screens.booking
 
 import android.annotation.SuppressLint
-import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.Arrangement
@@ -41,7 +40,6 @@ import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.text.SpanStyle
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.buildAnnotatedString
-import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.text.withStyle
@@ -50,7 +48,6 @@ import androidx.compose.ui.unit.TextUnit
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import uk.ac.tees.mad.d3617913.R
-import uk.ac.tees.mad.d3617913.presentation.common.ImagePager
 import uk.ac.tees.mad.d3617913.presentation.screens.home.ParkingSpot
 
 @SuppressLint("UnusedMaterial3ScaffoldPaddingParameter")
@@ -83,7 +80,7 @@ fun BookingScreen(parkingSpot: ParkingSpot) {
                             fontWeight = FontWeight.Thin
                         )
                         Text(
-                            text = "$ ${parkingSpot.pricePerHour} /hr",
+                            text = "£ ${parkingSpot.pricePerHour} /hr",
                             fontSize = 20.sp,
                             style = MaterialTheme.typography.bodyMedium,
                             fontWeight = FontWeight.Bold
@@ -294,6 +291,7 @@ fun ExpandableText(
 fun BookingScreenPreview() {
     BookingScreen(
         parkingSpot = ParkingSpot(
+            id = "1",
             name = "Parking Spot 1",
             location = "Location 1",
             description = "This is a parking garage located in the heart of Manhattan. It is a multi-level parking garage with a total of 100 parking spots. The garage is open 24/7 and is monitored by security cameras. The garage is well-lit and has a clean and safe environment. The garage is conveniently located near many popular attractions and is within walking distance of many restaurants, shops, and theaters.",

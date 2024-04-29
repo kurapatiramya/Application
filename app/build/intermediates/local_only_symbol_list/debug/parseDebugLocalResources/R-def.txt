@@ -46,6 +46,7 @@ drawable profile_pic_2
 mipmap ic_launcher
 mipmap ic_launcher_foreground
 mipmap ic_launcher_round
+raw loading_plane
 string app_name
 string create_account
 string email

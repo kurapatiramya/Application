@@ -55,6 +55,8 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.lifecycle.viewmodel.compose.viewModel
+import androidx.navigation.NavController
+import androidx.navigation.NavHostController
 import uk.ac.tees.mad.d3617913.R
 import uk.ac.tees.mad.d3617913.data.SignupViewModel
 import uk.ac.tees.mad.d3617913.location.LocationUtils
@@ -65,7 +67,8 @@ import uk.ac.tees.mad.d3617913.presentation.navigation.SystemBackButtonHandler
 @Composable
 fun ProfileScreen(
     userProfile: ProfileData,
-    signupViewModel: SignupViewModel = viewModel()
+    signupViewModel: SignupViewModel = viewModel(),
+    navController: NavHostController
 ) {
     val context = LocalContext.current
 
@@ -200,7 +203,7 @@ fun ProfileScreen(
                     icon = Icons.Filled.Payment,
                     text = "Payment Method",
                     onClick = {
-//                        ScreenRouter.navigateTo(Screen.PostScreen)
+//                        ScreenRouter.navigateTo(Screen.LoginScreen)
                     }
                 )
                 Spacer(modifier = Modifier.height(10.dp))
@@ -223,6 +226,7 @@ fun ProfileScreen(
             Button(
                 onClick = {
                     signupViewModel.logout()
+                    navController.navigate("login")
                 },
                 modifier = Modifier.fillMaxWidth(),
                 colors = ButtonDefaults.buttonColors(colorResource(id = R.color.colorText))
@@ -236,14 +240,14 @@ fun ProfileScreen(
 //    }
 }
 
-@Preview(showBackground = true, showSystemUi = true)
-@Composable
-fun ProfileScreenPreview() {
-    ProfileScreen(
-        userProfile = ProfileData(
-            name = "Alena",
-            profileImage = painterResource(id =R.drawable.profile_pic_2),
-            gender = "F"
-        )
-    )
-}
+//@Preview(showBackground = true, showSystemUi = true)
+//@Composable
+//fun ProfileScreenPreview() {
+//    ProfileScreen(
+//        userProfile = ProfileData(
+//            name = "Alena",
+//            profileImage = painterResource(id =R.drawable.profile_pic_2),
+//            gender = "F"
+//        )
+//    )
+//}

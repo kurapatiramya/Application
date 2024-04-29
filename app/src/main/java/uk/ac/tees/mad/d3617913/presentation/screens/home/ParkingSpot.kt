@@ -3,6 +3,7 @@ package uk.ac.tees.mad.d3617913.presentation.screens.home
 import uk.ac.tees.mad.d3617913.R
 
 data class ParkingSpot(
+    val id: String,
     val name: String,
     val location: String,
     val description: String,
@@ -15,6 +16,7 @@ data class ParkingSpot(
 
 val parkingSpots = listOf(
     ParkingSpot(
+        id = "1",
         name = "Central Parking Garage",
         location = "Midtown Manhattan",
         description = "This is a parking garage located in the heart of Manhattan. It is a multi-level parking garage with a total of 100 parking spots. The garage is open 24/7 and is monitored by security cameras. The garage is well-lit and has a clean and safe environment. The garage is conveniently located near many popular attractions and is within walking distance of many restaurants, shops, and theaters.",
@@ -25,6 +27,7 @@ val parkingSpots = listOf(
         images = listOf(R.drawable.parking_1, R.drawable.parking_2, R.drawable.parking_3)
     ),
     ParkingSpot(
+        id = "2",
         name = "Public Lot on 2nd",
         location = "Lower East Side",
         description = "This is a parking garage located in the heart of Manhattan. It is a multi-level parking garage with a total of 100 parking spots. The garage is open 24/7 and is monitored by security cameras. The garage is well-lit and has a clean and safe environment. The garage is conveniently located near many popular attractions and is within walking distance of many restaurants, shops, and theaters.",
@@ -36,6 +39,7 @@ val parkingSpots = listOf(
 
     ),
     ParkingSpot(
+        id = "2",
         name = "Street Parking (Permit)",
         location = "Soho",
         description = "This is a parking garage located in the heart of Manhattan. It is a multi-level parking garage with a total of 100 parking spots. The garage is open 24/7 and is monitored by security cameras. The garage is well-lit and has a clean and safe environment. The garage is conveniently located near many popular attractions and is within walking distance of many restaurants, shops, and theaters.",

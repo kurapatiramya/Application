@@ -120,15 +120,16 @@ class SignupViewModel : ViewModel() {
     fun logout() {
         val firebaseAuth = FirebaseAuth.getInstance()
         firebaseAuth.signOut()
+        ScreenRouter.navigateTo(Screen.LoginScreen)
 
-        val authStateListener = AuthStateListener {
-            if (it.currentUser == null) {
-                Log.d(TAG, "Inside Signout Success ")
-                ScreenRouter.navigateTo(Screen.LoginScreen)
-            } else {
-                Log.d(TAG, "Inside Signout Failure ")
-            }
-        }
-        firebaseAuth.addAuthStateListener(authStateListener)
+//        val authStateListener = AuthStateListener {
+//            if (it.currentUser == null) {
+//                Log.d(TAG, "Inside Signout Success ")
+//            } else {
+//                Log.d(TAG, "Inside Signout Failure ")
+//            }
+//        }
+//        firebaseAuth.addAuthStateListener(authStateListener)
     }
 }
+

@@ -3,6 +3,7 @@ package uk.ac.tees.mad.d3617913.presentation.screens.home
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
@@ -11,20 +12,32 @@ import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.foundation.text.KeyboardActions
+import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Search
+import androidx.compose.material.icons.outlined.ChevronRight
+import androidx.compose.material.icons.outlined.Search
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
+import androidx.compose.material3.OutlinedTextField
+import androidx.compose.material3.OutlinedTextFieldDefaults
 import androidx.compose.material3.SearchBar
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.platform.LocalFocusManager
 import androidx.compose.ui.platform.LocalSoftwareKeyboardController
 import androidx.compose.ui.res.colorResource
+import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.unit.dp
 import uk.ac.tees.mad.d3617913.R
 
@@ -90,8 +103,60 @@ fun CustomSearchBar() {
                 Text(
                     text = cities,
 
-                )
+                    )
             }
         }
     }
+}
+
+@Composable
+fun search2() {
+
+    var searchUser by remember {
+        mutableStateOf("")
+    }
+    val focusManager = LocalFocusManager.current
+
+    OutlinedTextField(
+        value = searchUser,
+        onValueChange = {
+            searchUser = it
+//            allUsersState?.data?.let {
+//                userDetailList = it.filter { user ->
+//                    user.name.lowercase().contains(searchUser.lowercase())
+//                            || user.email.lowercase()
+//                        .contains(searchUser.lowercase())
+//                            || user.interests.contains(searchUser)
+//                            || user.profession.lowercase()
+//                        .contains(searchUser.lowercase())
+//                }
+//            }
+        },
+        modifier = Modifier.fillMaxWidth(),
+        leadingIcon = {
+            Icon(
+                imageVector = Icons.Outlined.Search,
+                contentDescription = ""
+            )
+        },
+        placeholder = {
+            Text(text = "Search..")
+        },
+        trailingIcon = {
+            Icon(
+                imageVector = Icons.Outlined.ChevronRight,
+                contentDescription = ""
+            )
+        },
+        colors = OutlinedTextFieldDefaults.colors(
+            disabledContainerColor = Color.White
+        ),
+        shape = RoundedCornerShape(16.dp),
+        keyboardOptions = KeyboardOptions(imeAction = ImeAction.Done),
+        keyboardActions = KeyboardActions(
+            onDone = {
+                focusManager.clearFocus()
+            }
+        )
+    )
 }

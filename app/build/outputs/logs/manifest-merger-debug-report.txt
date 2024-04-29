@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\soura\AndroidStudioProjects\Avenue\app\src\main\AndroidManifest.xml:2:1-46:12
-INJECTED from C:\Users\soura\AndroidStudioProjects\Avenue\app\src\main\AndroidManifest.xml:2:1-46:12
-INJECTED from C:\Users\soura\AndroidStudioProjects\Avenue\app\src\main\AndroidManifest.xml:2:1-46:12
-INJECTED from C:\Users\soura\AndroidStudioProjects\Avenue\app\src\main\AndroidManifest.xml:2:1-46:12
+ADDED from C:\Users\soura\AndroidStudioProjects\ParkEase\app\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from C:\Users\soura\AndroidStudioProjects\ParkEase\app\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from C:\Users\soura\AndroidStudioProjects\ParkEase\app\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from C:\Users\soura\AndroidStudioProjects\ParkEase\app\src\main\AndroidManifest.xml:2:1-46:12
 MERGED from [com.google.accompanist:accompanist-systemuicontroller:0.32.0] C:\Users\soura\.gradle\caches\transforms-3\710c4eaed570f927b14f545a81b4beec\transformed\accompanist-systemuicontroller-0.32.0\AndroidManifest.xml:17:1-23:12
 MERGED from [com.google.firebase:firebase-storage-ktx:20.3.0] C:\Users\soura\.gradle\caches\transforms-3\fe9fea2d7d813907b8e1ae2ce1bd6923\transformed\firebase-storage-ktx-20.3.0\AndroidManifest.xml:2:1-18:12
 MERGED from [com.google.maps.android:maps-compose-utils:4.3.3] C:\Users\soura\.gradle\caches\transforms-3\1d32728085f2f2eb6a9e1c2a74ebcea8\transformed\maps-compose-utils-4.3.3\AndroidManifest.xml:2:1-7:12
@@ -19,6 +19,7 @@ MERGED from [androidx.navigation:navigation-runtime:2.7.7] C:\Users\soura\.gradl
 MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.7] C:\Users\soura\.gradle\caches\transforms-3\82fc67927defd53adc7aa5a661a83f13\transformed\navigation-runtime-ktx-2.7.7\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.navigation:navigation-compose:2.7.7] C:\Users\soura\.gradle\caches\transforms-3\7059bf67ebe0943c0f323606243713a0\transformed\navigation-compose-2.7.7\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.accompanist:accompanist-permissions:0.35.0-alpha] C:\Users\soura\.gradle\caches\transforms-3\c153dba810502cbf46d7608f51f0505a\transformed\accompanist-permissions-0.35.0-alpha\AndroidManifest.xml:17:1-23:12
+MERGED from [com.airbnb.android:lottie-compose:6.4.0] C:\Users\soura\.gradle\caches\transforms-3\a017ce1898786dbc5971a6c715d7af72\transformed\lottie-compose-6.4.0\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.maps.android:maps-ktx:5.0.0] C:\Users\soura\.gradle\caches\transforms-3\f1a5a470f4f88dd373e50a00a3c7f352\transformed\maps-ktx-5.0.0\AndroidManifest.xml:18:1-23:12
 MERGED from [com.google.maps.android:maps-utils-ktx:5.0.0] C:\Users\soura\.gradle\caches\transforms-3\e60475949bb3bbe807cdaa61599a299c\transformed\maps-utils-ktx-5.0.0\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.maps.android:android-maps-utils:3.7.0] C:\Users\soura\.gradle\caches\transforms-3\6ab2f63ed6c59baae08b7a3606f4efb4\transformed\android-maps-utils-3.7.0\AndroidManifest.xml:2:1-13:12
@@ -44,8 +45,13 @@ MERGED from [androidx.room:room-ktx:2.6.1] C:\Users\soura\.gradle\caches\transfo
 MERGED from [androidx.paging:paging-compose:3.2.1] C:\Users\soura\.gradle\caches\transforms-3\a615bd95b6830794f24041c1f5b3782e\transformed\paging-compose-3.2.1\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.paging:paging-runtime-ktx:3.2.1] C:\Users\soura\.gradle\caches\transforms-3\2a0d6d452fad93a9ee5b7aaf527a8a67\transformed\paging-runtime-ktx-3.2.1\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.paging:paging-runtime:3.2.1] C:\Users\soura\.gradle\caches\transforms-3\34b8a05e63c3a2e56f5a2c7cf530d20e\transformed\paging-runtime-3.2.1\AndroidManifest.xml:2:1-7:12
+MERGED from [com.airbnb.android:lottie:6.4.0] C:\Users\soura\.gradle\caches\transforms-3\ceb8d305d136fdbe0d6dc5c880f29d24\transformed\lottie-6.4.0\AndroidManifest.xml:2:1-9:12
 MERGED from [io.coil-kt:coil-compose:2.6.0] C:\Users\soura\.gradle\caches\transforms-3\b1d61af579a945b759ccc92088eb3fb9\transformed\coil-compose-2.6.0\AndroidManifest.xml:2:1-7:12
 MERGED from [io.coil-kt:coil-compose-base:2.6.0] C:\Users\soura\.gradle\caches\transforms-3\e59f560ccc3e57d13f409974e95b0de4\transformed\coil-compose-base-2.6.0\AndroidManifest.xml:2:1-7:12
+MERGED from [io.coil-kt:coil:2.6.0] C:\Users\soura\.gradle\caches\transforms-3\2deb18aae65b24ae2e47a531531ad6ec\transformed\coil-2.6.0\AndroidManifest.xml:2:1-7:12
+MERGED from [io.coil-kt:coil-base:2.6.0] C:\Users\soura\.gradle\caches\transforms-3\ea97a4046edad9c29443d669f39f58b9\transformed\coil-base-2.6.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\soura\.gradle\caches\transforms-3\bda3a4973321f61762f0bb5028aa00f3\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\soura\.gradle\caches\transforms-3\fc76fd70855a3b97a52e5910429cdf58\transformed\appcompat-1.6.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.compose.material3:material3-android:1.2.1] C:\Users\soura\.gradle\caches\transforms-3\fa766f3b7b05655ee2e91d6f977d596c\transformed\material3-release\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.compose.material:material-ripple-android:1.6.5] C:\Users\soura\.gradle\caches\transforms-3\9dde7b660d3f8a33e883306e1a0a0617\transformed\material-ripple-release\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.compose.material:material-icons-core-android:1.6.5] C:\Users\soura\.gradle\caches\transforms-3\516f1e8593667b0865a2230ccbf3d7c7\transformed\material-icons-core-release\AndroidManifest.xml:2:1-7:12
@@ -64,6 +70,7 @@ MERGED from [androidx.compose.ui:ui-text-android:1.7.0-alpha01] C:\Users\soura\.
 MERGED from [androidx.compose.ui:ui-tooling-android:1.7.0-alpha01] C:\Users\soura\.gradle\caches\transforms-3\25b8554b84530dde37ec86cf9e376ab9\transformed\ui-tooling-release\AndroidManifest.xml:17:1-28:12
 MERGED from [androidx.compose.material:material-android:1.6.5] C:\Users\soura\.gradle\caches\transforms-3\c436985fbd42a02fff0df1215e0da043\transformed\material-release\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.compose.foundation:foundation-android:1.7.0-alpha01] C:\Users\soura\.gradle\caches\transforms-3\7001e3d4009a2c36fe245d345704c66a\transformed\foundation-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\soura\.gradle\caches\transforms-3\0e3b1ba898e41c41908e282afc00bc2e\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\soura\.gradle\caches\transforms-3\f0c5bcbd6fe728f24432512d4c3e47c3\transformed\emoji2-1.3.0\AndroidManifest.xml:17:1-35:12
 MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\soura\.gradle\caches\transforms-3\60774f7b882bafe41430c66080cb7a48\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:17:1-35:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.7.0] C:\Users\soura\.gradle\caches\transforms-3\68dd6da0bfc384187c677afa95a15558\transformed\lifecycle-livedata-ktx-2.7.0\AndroidManifest.xml:2:1-7:12
@@ -82,8 +89,6 @@ MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] C:\Users\soura\.gradle
 MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\soura\.gradle\caches\transforms-3\81fe50a27cc23a678d2a402d260785e7\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\soura\.gradle\caches\transforms-3\be6db285c02aa6fb708a8b5a62818ba3\transformed\savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.accompanist:accompanist-drawablepainter:0.32.0] C:\Users\soura\.gradle\caches\transforms-3\386c34b5b15f6df267dc55809842031d\transformed\accompanist-drawablepainter-0.32.0\AndroidManifest.xml:17:1-23:12
-MERGED from [io.coil-kt:coil:2.6.0] C:\Users\soura\.gradle\caches\transforms-3\2deb18aae65b24ae2e47a531531ad6ec\transformed\coil-2.6.0\AndroidManifest.xml:2:1-7:12
-MERGED from [io.coil-kt:coil-base:2.6.0] C:\Users\soura\.gradle\caches\transforms-3\ea97a4046edad9c29443d669f39f58b9\transformed\coil-base-2.6.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.datastore:datastore-preferences:1.0.0] C:\Users\soura\.gradle\caches\transforms-3\a88e5899dbed0d8bf03b5d0b314dc8a5\transformed\datastore-preferences-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.datastore:datastore:1.0.0] C:\Users\soura\.gradle\caches\transforms-3\3183dcfc1222015b55b269512d71bec8\transformed\datastore-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.privacysandbox.ads:ads-adservices-java:1.0.0-beta05] C:\Users\soura\.gradle\caches\transforms-3\5821f92cbfe7190573b7862de75b7f6a\transformed\ads-adservices-java-1.0.0-beta05\AndroidManifest.xml:2:1-7:12
@@ -111,8 +116,8 @@ MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\soura\.gradle\ca
 MERGED from [androidx.dynamicanimation:dynamicanimation-ktx:1.0.0-alpha03] C:\Users\soura\.gradle\caches\transforms-3\1de60cf68f9a4d220a2424f0ab5cb3ec\transformed\dynamicanimation-ktx-1.0.0-alpha03\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.dynamicanimation:dynamicanimation:1.1.0-alpha03] C:\Users\soura\.gradle\caches\transforms-3\d566f659ae57a61f15a564f8ab25fa50\transformed\dynamicanimation-1.1.0-alpha03\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.browser:browser:1.4.0] C:\Users\soura\.gradle\caches\transforms-3\175ad0e4056562107e89a632abb83937\transformed\browser-1.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\soura\.gradle\caches\transforms-3\0d3c09e5edc89e78c0b58bd960003a2f\transformed\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.customview:customview:1.0.0] C:\Users\soura\.gradle\caches\transforms-3\62e97df562b41b648b21db946b1a27fe\transformed\customview-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\soura\.gradle\caches\transforms-3\bda3a4973321f61762f0bb5028aa00f3\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\soura\.gradle\caches\transforms-3\c0009d7da3e267cc54e1096d68425c14\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\soura\.gradle\caches\transforms-3\7a165b09ea1fe0d844f0e9e46dd5c80e\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\soura\.gradle\caches\transforms-3\42db4c049484e28d3ce4f70c6aa4a59b\transformed\autofill-1.0.0\AndroidManifest.xml:17:1-24:12
@@ -124,31 +129,32 @@ MERGED from [androidx.core:core-splashscreen:1.0.1] C:\Users\soura\.gradle\cache
 MERGED from [androidx.sqlite:sqlite-framework:2.4.0] C:\Users\soura\.gradle\caches\transforms-3\e1b6abfaf9d4c9cac83b6dbb723c3607\transformed\sqlite-framework-2.4.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.sqlite:sqlite:2.4.0] C:\Users\soura\.gradle\caches\transforms-3\34fdf1b90cbf8918f6f79987109a6d85\transformed\sqlite-2.4.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\soura\.gradle\caches\transforms-3\de5b5d9fd080876fd805f841d19ad26a\transformed\annotation-experimental-1.4.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\soura\.gradle\caches\transforms-3\837439d96281c1935a23fe0ba163847f\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\soura\.gradle\caches\transforms-3\5cd6d914a2f701f6a90171eea8c0d0e4\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-components:17.1.5] C:\Users\soura\.gradle\caches\transforms-3\7680bff14a64705d8e560cf7973c656c\transformed\firebase-components-17.1.5\AndroidManifest.xml:15:1-20:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\soura\.gradle\caches\transforms-3\e0e4c687564c7c663325b3c2f51a695d\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\soura\.gradle\caches\transforms-3\837439d96281c1935a23fe0ba163847f\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\soura\.gradle\caches\transforms-3\a3530062488e1f3fa70a14b3126c1fa8\transformed\profileinstaller-1.3.1\AndroidManifest.xml:17:1-55:12
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\soura\.gradle\caches\transforms-3\bac86bbaf13fe9ed883d28436c33b3c8\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
 MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\soura\.gradle\caches\transforms-3\47b73af328a005c1c459e4c3635b7715\transformed\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.databinding:viewbinding:7.4.2] C:\Users\soura\.gradle\caches\transforms-3\e869534a904a08641077560245b2d274\transformed\viewbinding-7.4.2\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\soura\.gradle\caches\transforms-3\581ea94d2355c4055552cb05da2ba5c2\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\soura\.gradle\caches\transforms-3\18cdc35bfcaa1a74c6f83f746ccd3902\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.exifinterface:exifinterface:1.3.7] C:\Users\soura\.gradle\caches\transforms-3\007123f67cada047940e8a2c43a3ab71\transformed\exifinterface-1.3.7\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\soura\.gradle\caches\transforms-3\55b62bf98aa7ae6104b3d2a984b0b7e1\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\soura\.gradle\caches\transforms-3\b8a672a5db0071d30973343cb8af1fee\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.dagger:dagger-lint-aar:2.49] C:\Users\soura\.gradle\caches\transforms-3\7172badece566a062415e8cf3336f3ee\transformed\dagger-lint-aar-2.49\AndroidManifest.xml:16:1-19:12
 	package
-		INJECTED from C:\Users\soura\AndroidStudioProjects\Avenue\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\soura\AndroidStudioProjects\ParkEase\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\soura\AndroidStudioProjects\Avenue\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\soura\AndroidStudioProjects\ParkEase\app\src\main\AndroidManifest.xml
 	xmlns:tools
-		ADDED from C:\Users\soura\AndroidStudioProjects\Avenue\app\src\main\AndroidManifest.xml:3:5-51
+		ADDED from C:\Users\soura\AndroidStudioProjects\ParkEase\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
-		INJECTED from C:\Users\soura\AndroidStudioProjects\Avenue\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\soura\AndroidStudioProjects\ParkEase\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\soura\AndroidStudioProjects\Avenue\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\soura\AndroidStudioProjects\ParkEase\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\soura\AndroidStudioProjects\Avenue\app\src\main\AndroidManifest.xml:5:5-67
+ADDED from C:\Users\soura\AndroidStudioProjects\ParkEase\app\src\main\AndroidManifest.xml:5:5-67
 MERGED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\soura\.gradle\caches\transforms-3\ea8d6ff512a4708e499aeb0428eff35b\transformed\play-services-maps-18.2.0\AndroidManifest.xml:24:5-67
 MERGED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\soura\.gradle\caches\transforms-3\ea8d6ff512a4708e499aeb0428eff35b\transformed\play-services-maps-18.2.0\AndroidManifest.xml:24:5-67
 MERGED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\soura\.gradle\caches\transforms-3\ca60c0e54500dd5dcf1a996820023fb8\transformed\firebase-storage-20.3.0\AndroidManifest.xml:24:5-67
@@ -168,18 +174,18 @@ MERGED from [com.google.android.gms:play-services-measurement-impl:21.6.1] C:\Us
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.6.1] C:\Users\soura\.gradle\caches\transforms-3\7d54715060fda383b6dcbc1d5deacd3a\transformed\play-services-measurement-sdk-api-21.6.1\AndroidManifest.xml:23:5-67
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.6.1] C:\Users\soura\.gradle\caches\transforms-3\7d54715060fda383b6dcbc1d5deacd3a\transformed\play-services-measurement-sdk-api-21.6.1\AndroidManifest.xml:23:5-67
 	android:name
-		ADDED from C:\Users\soura\AndroidStudioProjects\Avenue\app\src\main\AndroidManifest.xml:5:22-64
+		ADDED from C:\Users\soura\AndroidStudioProjects\ParkEase\app\src\main\AndroidManifest.xml:5:22-64
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from C:\Users\soura\AndroidStudioProjects\Avenue\app\src\main\AndroidManifest.xml:6:5-81
+ADDED from C:\Users\soura\AndroidStudioProjects\ParkEase\app\src\main\AndroidManifest.xml:6:5-81
 	android:name
-		ADDED from C:\Users\soura\AndroidStudioProjects\Avenue\app\src\main\AndroidManifest.xml:6:22-78
+		ADDED from C:\Users\soura\AndroidStudioProjects\ParkEase\app\src\main\AndroidManifest.xml:6:22-78
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from C:\Users\soura\AndroidStudioProjects\Avenue\app\src\main\AndroidManifest.xml:7:5-79
+ADDED from C:\Users\soura\AndroidStudioProjects\ParkEase\app\src\main\AndroidManifest.xml:7:5-79
 	android:name
-		ADDED from C:\Users\soura\AndroidStudioProjects\Avenue\app\src\main\AndroidManifest.xml:7:22-76
+		ADDED from C:\Users\soura\AndroidStudioProjects\ParkEase\app\src\main\AndroidManifest.xml:7:22-76
 application
-ADDED from C:\Users\soura\AndroidStudioProjects\Avenue\app\src\main\AndroidManifest.xml:9:5-44:19
-INJECTED from C:\Users\soura\AndroidStudioProjects\Avenue\app\src\main\AndroidManifest.xml:9:5-44:19
+ADDED from C:\Users\soura\AndroidStudioProjects\ParkEase\app\src\main\AndroidManifest.xml:9:5-44:19
+INJECTED from C:\Users\soura\AndroidStudioProjects\ParkEase\app\src\main\AndroidManifest.xml:9:5-44:19
 MERGED from [com.google.firebase:firebase-storage-ktx:20.3.0] C:\Users\soura\.gradle\caches\transforms-3\fe9fea2d7d813907b8e1ae2ce1bd6923\transformed\firebase-storage-ktx-20.3.0\AndroidManifest.xml:8:5-16:19
 MERGED from [com.google.firebase:firebase-storage-ktx:20.3.0] C:\Users\soura\.gradle\caches\transforms-3\fe9fea2d7d813907b8e1ae2ce1bd6923\transformed\firebase-storage-ktx-20.3.0\AndroidManifest.xml:8:5-16:19
 MERGED from [com.google.maps.android:android-maps-utils:3.7.0] C:\Users\soura\.gradle\caches\transforms-3\6ab2f63ed6c59baae08b7a3606f4efb4\transformed\android-maps-utils-3.7.0\AndroidManifest.xml:7:5-11:19
@@ -216,6 +222,8 @@ MERGED from [com.google.android.play:integrity:1.2.0] C:\Users\soura\.gradle\cac
 MERGED from [com.google.android.play:integrity:1.2.0] C:\Users\soura\.gradle\caches\transforms-3\6df4166679b2432848ff83c6665cae63\transformed\integrity-1.2.0\AndroidManifest.xml:5:5-6:19
 MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\soura\.gradle\caches\transforms-3\1157e56752a05312ff314c91bd7f8c40\transformed\room-runtime-2.6.1\AndroidManifest.xml:23:5-29:19
 MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\soura\.gradle\caches\transforms-3\1157e56752a05312ff314c91bd7f8c40\transformed\room-runtime-2.6.1\AndroidManifest.xml:23:5-29:19
+MERGED from [com.airbnb.android:lottie:6.4.0] C:\Users\soura\.gradle\caches\transforms-3\ceb8d305d136fdbe0d6dc5c880f29d24\transformed\lottie-6.4.0\AndroidManifest.xml:7:5-20
+MERGED from [com.airbnb.android:lottie:6.4.0] C:\Users\soura\.gradle\caches\transforms-3\ceb8d305d136fdbe0d6dc5c880f29d24\transformed\lottie-6.4.0\AndroidManifest.xml:7:5-20
 MERGED from [androidx.compose.ui:ui-test-manifest:1.7.0-alpha01] C:\Users\soura\.gradle\caches\transforms-3\b3408307da979bf515c92c7df769a3e8\transformed\ui-test-manifest-1.7.0-alpha01\AndroidManifest.xml:22:5-26:19
 MERGED from [androidx.compose.ui:ui-test-manifest:1.7.0-alpha01] C:\Users\soura\.gradle\caches\transforms-3\b3408307da979bf515c92c7df769a3e8\transformed\ui-test-manifest-1.7.0-alpha01\AndroidManifest.xml:22:5-26:19
 MERGED from [androidx.compose.ui:ui-tooling-android:1.7.0-alpha01] C:\Users\soura\.gradle\caches\transforms-3\25b8554b84530dde37ec86cf9e376ab9\transformed\ui-tooling-release\AndroidManifest.xml:22:5-26:19
@@ -253,67 +261,67 @@ MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\soura\.g
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\soura\.gradle\caches\transforms-3\bac86bbaf13fe9ed883d28436c33b3c8\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\soura\.gradle\caches\transforms-3\bac86bbaf13fe9ed883d28436c33b3c8\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
 	android:extractNativeLibs
-		INJECTED from C:\Users\soura\AndroidStudioProjects\Avenue\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\soura\AndroidStudioProjects\ParkEase\app\src\main\AndroidManifest.xml
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.12.0] C:\Users\soura\.gradle\caches\transforms-3\b4dc19a3e40170777b083a621ef5d935\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from C:\Users\soura\AndroidStudioProjects\Avenue\app\src\main\AndroidManifest.xml:17:9-35
+		ADDED from C:\Users\soura\AndroidStudioProjects\ParkEase\app\src\main\AndroidManifest.xml:17:9-35
 	android:label
-		ADDED from C:\Users\soura\AndroidStudioProjects\Avenue\app\src\main\AndroidManifest.xml:15:9-41
+		ADDED from C:\Users\soura\AndroidStudioProjects\ParkEase\app\src\main\AndroidManifest.xml:15:9-41
 	android:fullBackupContent
-		ADDED from C:\Users\soura\AndroidStudioProjects\Avenue\app\src\main\AndroidManifest.xml:13:9-54
+		ADDED from C:\Users\soura\AndroidStudioProjects\ParkEase\app\src\main\AndroidManifest.xml:13:9-54
 	android:roundIcon
-		ADDED from C:\Users\soura\AndroidStudioProjects\Avenue\app\src\main\AndroidManifest.xml:16:9-54
+		ADDED from C:\Users\soura\AndroidStudioProjects\ParkEase\app\src\main\AndroidManifest.xml:16:9-54
 	tools:targetApi
-		ADDED from C:\Users\soura\AndroidStudioProjects\Avenue\app\src\main\AndroidManifest.xml:19:9-29
+		ADDED from C:\Users\soura\AndroidStudioProjects\ParkEase\app\src\main\AndroidManifest.xml:19:9-29
 	android:icon
-		ADDED from C:\Users\soura\AndroidStudioProjects\Avenue\app\src\main\AndroidManifest.xml:14:9-43
+		ADDED from C:\Users\soura\AndroidStudioProjects\ParkEase\app\src\main\AndroidManifest.xml:14:9-43
 	android:allowBackup
-		ADDED from C:\Users\soura\AndroidStudioProjects\Avenue\app\src\main\AndroidManifest.xml:11:9-35
+		ADDED from C:\Users\soura\AndroidStudioProjects\ParkEase\app\src\main\AndroidManifest.xml:11:9-35
 	android:theme
-		ADDED from C:\Users\soura\AndroidStudioProjects\Avenue\app\src\main\AndroidManifest.xml:18:9-46
+		ADDED from C:\Users\soura\AndroidStudioProjects\ParkEase\app\src\main\AndroidManifest.xml:18:9-46
 	android:dataExtractionRules
-		ADDED from C:\Users\soura\AndroidStudioProjects\Avenue\app\src\main\AndroidManifest.xml:12:9-65
+		ADDED from C:\Users\soura\AndroidStudioProjects\ParkEase\app\src\main\AndroidManifest.xml:12:9-65
 	android:name
-		ADDED from C:\Users\soura\AndroidStudioProjects\Avenue\app\src\main\AndroidManifest.xml:10:9-40
+		ADDED from C:\Users\soura\AndroidStudioProjects\ParkEase\app\src\main\AndroidManifest.xml:10:9-40
 activity#uk.ac.tees.mad.d3617913.HomeActivity
-ADDED from C:\Users\soura\AndroidStudioProjects\Avenue\app\src\main\AndroidManifest.xml:21:9-27:20
+ADDED from C:\Users\soura\AndroidStudioProjects\ParkEase\app\src\main\AndroidManifest.xml:21:9-27:20
 	android:label
-		ADDED from C:\Users\soura\AndroidStudioProjects\Avenue\app\src\main\AndroidManifest.xml:24:13-56
+		ADDED from C:\Users\soura\AndroidStudioProjects\ParkEase\app\src\main\AndroidManifest.xml:24:13-56
 	android:exported
-		ADDED from C:\Users\soura\AndroidStudioProjects\Avenue\app\src\main\AndroidManifest.xml:23:13-36
+		ADDED from C:\Users\soura\AndroidStudioProjects\ParkEase\app\src\main\AndroidManifest.xml:23:13-36
 	android:theme
-		ADDED from C:\Users\soura\AndroidStudioProjects\Avenue\app\src\main\AndroidManifest.xml:25:13-50
+		ADDED from C:\Users\soura\AndroidStudioProjects\ParkEase\app\src\main\AndroidManifest.xml:25:13-50
 	android:name
-		ADDED from C:\Users\soura\AndroidStudioProjects\Avenue\app\src\main\AndroidManifest.xml:22:13-41
+		ADDED from C:\Users\soura\AndroidStudioProjects\ParkEase\app\src\main\AndroidManifest.xml:22:13-41
 activity#uk.ac.tees.mad.d3617913.MainActivity
-ADDED from C:\Users\soura\AndroidStudioProjects\Avenue\app\src\main\AndroidManifest.xml:29:9-38:20
+ADDED from C:\Users\soura\AndroidStudioProjects\ParkEase\app\src\main\AndroidManifest.xml:29:9-38:20
 	android:exported
-		ADDED from C:\Users\soura\AndroidStudioProjects\Avenue\app\src\main\AndroidManifest.xml:31:13-36
+		ADDED from C:\Users\soura\AndroidStudioProjects\ParkEase\app\src\main\AndroidManifest.xml:31:13-36
 	android:theme
-		ADDED from C:\Users\soura\AndroidStudioProjects\Avenue\app\src\main\AndroidManifest.xml:32:13-50
+		ADDED from C:\Users\soura\AndroidStudioProjects\ParkEase\app\src\main\AndroidManifest.xml:32:13-50
 	android:name
-		ADDED from C:\Users\soura\AndroidStudioProjects\Avenue\app\src\main\AndroidManifest.xml:30:13-41
+		ADDED from C:\Users\soura\AndroidStudioProjects\ParkEase\app\src\main\AndroidManifest.xml:30:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\soura\AndroidStudioProjects\Avenue\app\src\main\AndroidManifest.xml:33:13-37:29
+ADDED from C:\Users\soura\AndroidStudioProjects\ParkEase\app\src\main\AndroidManifest.xml:33:13-37:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\soura\AndroidStudioProjects\Avenue\app\src\main\AndroidManifest.xml:34:17-69
+ADDED from C:\Users\soura\AndroidStudioProjects\ParkEase\app\src\main\AndroidManifest.xml:34:17-69
 	android:name
-		ADDED from C:\Users\soura\AndroidStudioProjects\Avenue\app\src\main\AndroidManifest.xml:34:25-66
+		ADDED from C:\Users\soura\AndroidStudioProjects\ParkEase\app\src\main\AndroidManifest.xml:34:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\soura\AndroidStudioProjects\Avenue\app\src\main\AndroidManifest.xml:36:17-77
+ADDED from C:\Users\soura\AndroidStudioProjects\ParkEase\app\src\main\AndroidManifest.xml:36:17-77
 	android:name
-		ADDED from C:\Users\soura\AndroidStudioProjects\Avenue\app\src\main\AndroidManifest.xml:36:27-74
+		ADDED from C:\Users\soura\AndroidStudioProjects\ParkEase\app\src\main\AndroidManifest.xml:36:27-74
 meta-data#com.google.android.geo.API_KEY
-ADDED from C:\Users\soura\AndroidStudioProjects\Avenue\app\src\main\AndroidManifest.xml:40:9-42:71
+ADDED from C:\Users\soura\AndroidStudioProjects\ParkEase\app\src\main\AndroidManifest.xml:40:9-42:71
 	android:value
-		ADDED from C:\Users\soura\AndroidStudioProjects\Avenue\app\src\main\AndroidManifest.xml:42:13-68
+		ADDED from C:\Users\soura\AndroidStudioProjects\ParkEase\app\src\main\AndroidManifest.xml:42:13-68
 	android:name
-		ADDED from C:\Users\soura\AndroidStudioProjects\Avenue\app\src\main\AndroidManifest.xml:41:13-58
+		ADDED from C:\Users\soura\AndroidStudioProjects\ParkEase\app\src\main\AndroidManifest.xml:41:13-58
 uses-sdk
-INJECTED from C:\Users\soura\AndroidStudioProjects\Avenue\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\soura\AndroidStudioProjects\Avenue\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\soura\AndroidStudioProjects\Avenue\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\soura\AndroidStudioProjects\ParkEase\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\soura\AndroidStudioProjects\ParkEase\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\soura\AndroidStudioProjects\ParkEase\app\src\main\AndroidManifest.xml
 MERGED from [com.google.accompanist:accompanist-systemuicontroller:0.32.0] C:\Users\soura\.gradle\caches\transforms-3\710c4eaed570f927b14f545a81b4beec\transformed\accompanist-systemuicontroller-0.32.0\AndroidManifest.xml:21:5-44
 MERGED from [com.google.accompanist:accompanist-systemuicontroller:0.32.0] C:\Users\soura\.gradle\caches\transforms-3\710c4eaed570f927b14f545a81b4beec\transformed\accompanist-systemuicontroller-0.32.0\AndroidManifest.xml:21:5-44
 MERGED from [com.google.firebase:firebase-storage-ktx:20.3.0] C:\Users\soura\.gradle\caches\transforms-3\fe9fea2d7d813907b8e1ae2ce1bd6923\transformed\firebase-storage-ktx-20.3.0\AndroidManifest.xml:5:5-44
@@ -344,6 +352,8 @@ MERGED from [androidx.navigation:navigation-compose:2.7.7] C:\Users\soura\.gradl
 MERGED from [androidx.navigation:navigation-compose:2.7.7] C:\Users\soura\.gradle\caches\transforms-3\7059bf67ebe0943c0f323606243713a0\transformed\navigation-compose-2.7.7\AndroidManifest.xml:5:5-44
 MERGED from [com.google.accompanist:accompanist-permissions:0.35.0-alpha] C:\Users\soura\.gradle\caches\transforms-3\c153dba810502cbf46d7608f51f0505a\transformed\accompanist-permissions-0.35.0-alpha\AndroidManifest.xml:21:5-44
 MERGED from [com.google.accompanist:accompanist-permissions:0.35.0-alpha] C:\Users\soura\.gradle\caches\transforms-3\c153dba810502cbf46d7608f51f0505a\transformed\accompanist-permissions-0.35.0-alpha\AndroidManifest.xml:21:5-44
+MERGED from [com.airbnb.android:lottie-compose:6.4.0] C:\Users\soura\.gradle\caches\transforms-3\a017ce1898786dbc5971a6c715d7af72\transformed\lottie-compose-6.4.0\AndroidManifest.xml:5:5-44
+MERGED from [com.airbnb.android:lottie-compose:6.4.0] C:\Users\soura\.gradle\caches\transforms-3\a017ce1898786dbc5971a6c715d7af72\transformed\lottie-compose-6.4.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.maps.android:maps-ktx:5.0.0] C:\Users\soura\.gradle\caches\transforms-3\f1a5a470f4f88dd373e50a00a3c7f352\transformed\maps-ktx-5.0.0\AndroidManifest.xml:21:5-44
 MERGED from [com.google.maps.android:maps-ktx:5.0.0] C:\Users\soura\.gradle\caches\transforms-3\f1a5a470f4f88dd373e50a00a3c7f352\transformed\maps-ktx-5.0.0\AndroidManifest.xml:21:5-44
 MERGED from [com.google.maps.android:maps-utils-ktx:5.0.0] C:\Users\soura\.gradle\caches\transforms-3\e60475949bb3bbe807cdaa61599a299c\transformed\maps-utils-ktx-5.0.0\AndroidManifest.xml:5:5-44
@@ -394,10 +404,20 @@ MERGED from [androidx.paging:paging-runtime-ktx:3.2.1] C:\Users\soura\.gradle\ca
 MERGED from [androidx.paging:paging-runtime-ktx:3.2.1] C:\Users\soura\.gradle\caches\transforms-3\2a0d6d452fad93a9ee5b7aaf527a8a67\transformed\paging-runtime-ktx-3.2.1\AndroidManifest.xml:5:5-44
 MERGED from [androidx.paging:paging-runtime:3.2.1] C:\Users\soura\.gradle\caches\transforms-3\34b8a05e63c3a2e56f5a2c7cf530d20e\transformed\paging-runtime-3.2.1\AndroidManifest.xml:5:5-44
 MERGED from [androidx.paging:paging-runtime:3.2.1] C:\Users\soura\.gradle\caches\transforms-3\34b8a05e63c3a2e56f5a2c7cf530d20e\transformed\paging-runtime-3.2.1\AndroidManifest.xml:5:5-44
+MERGED from [com.airbnb.android:lottie:6.4.0] C:\Users\soura\.gradle\caches\transforms-3\ceb8d305d136fdbe0d6dc5c880f29d24\transformed\lottie-6.4.0\AndroidManifest.xml:5:5-44
+MERGED from [com.airbnb.android:lottie:6.4.0] C:\Users\soura\.gradle\caches\transforms-3\ceb8d305d136fdbe0d6dc5c880f29d24\transformed\lottie-6.4.0\AndroidManifest.xml:5:5-44
 MERGED from [io.coil-kt:coil-compose:2.6.0] C:\Users\soura\.gradle\caches\transforms-3\b1d61af579a945b759ccc92088eb3fb9\transformed\coil-compose-2.6.0\AndroidManifest.xml:5:5-44
 MERGED from [io.coil-kt:coil-compose:2.6.0] C:\Users\soura\.gradle\caches\transforms-3\b1d61af579a945b759ccc92088eb3fb9\transformed\coil-compose-2.6.0\AndroidManifest.xml:5:5-44
 MERGED from [io.coil-kt:coil-compose-base:2.6.0] C:\Users\soura\.gradle\caches\transforms-3\e59f560ccc3e57d13f409974e95b0de4\transformed\coil-compose-base-2.6.0\AndroidManifest.xml:5:5-44
 MERGED from [io.coil-kt:coil-compose-base:2.6.0] C:\Users\soura\.gradle\caches\transforms-3\e59f560ccc3e57d13f409974e95b0de4\transformed\coil-compose-base-2.6.0\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil:2.6.0] C:\Users\soura\.gradle\caches\transforms-3\2deb18aae65b24ae2e47a531531ad6ec\transformed\coil-2.6.0\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil:2.6.0] C:\Users\soura\.gradle\caches\transforms-3\2deb18aae65b24ae2e47a531531ad6ec\transformed\coil-2.6.0\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-base:2.6.0] C:\Users\soura\.gradle\caches\transforms-3\ea97a4046edad9c29443d669f39f58b9\transformed\coil-base-2.6.0\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-base:2.6.0] C:\Users\soura\.gradle\caches\transforms-3\ea97a4046edad9c29443d669f39f58b9\transformed\coil-base-2.6.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\soura\.gradle\caches\transforms-3\bda3a4973321f61762f0bb5028aa00f3\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\soura\.gradle\caches\transforms-3\bda3a4973321f61762f0bb5028aa00f3\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\soura\.gradle\caches\transforms-3\fc76fd70855a3b97a52e5910429cdf58\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\soura\.gradle\caches\transforms-3\fc76fd70855a3b97a52e5910429cdf58\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.compose.material3:material3-android:1.2.1] C:\Users\soura\.gradle\caches\transforms-3\fa766f3b7b05655ee2e91d6f977d596c\transformed\material3-release\AndroidManifest.xml:20:5-44
 MERGED from [androidx.compose.material3:material3-android:1.2.1] C:\Users\soura\.gradle\caches\transforms-3\fa766f3b7b05655ee2e91d6f977d596c\transformed\material3-release\AndroidManifest.xml:20:5-44
 MERGED from [androidx.compose.material:material-ripple-android:1.6.5] C:\Users\soura\.gradle\caches\transforms-3\9dde7b660d3f8a33e883306e1a0a0617\transformed\material-ripple-release\AndroidManifest.xml:5:5-44
@@ -434,6 +454,8 @@ MERGED from [androidx.compose.material:material-android:1.6.5] C:\Users\soura\.g
 MERGED from [androidx.compose.material:material-android:1.6.5] C:\Users\soura\.gradle\caches\transforms-3\c436985fbd42a02fff0df1215e0da043\transformed\material-release\AndroidManifest.xml:5:5-44
 MERGED from [androidx.compose.foundation:foundation-android:1.7.0-alpha01] C:\Users\soura\.gradle\caches\transforms-3\7001e3d4009a2c36fe245d345704c66a\transformed\foundation-release\AndroidManifest.xml:5:5-44
 MERGED from [androidx.compose.foundation:foundation-android:1.7.0-alpha01] C:\Users\soura\.gradle\caches\transforms-3\7001e3d4009a2c36fe245d345704c66a\transformed\foundation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\soura\.gradle\caches\transforms-3\0e3b1ba898e41c41908e282afc00bc2e\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\soura\.gradle\caches\transforms-3\0e3b1ba898e41c41908e282afc00bc2e\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\soura\.gradle\caches\transforms-3\f0c5bcbd6fe728f24432512d4c3e47c3\transformed\emoji2-1.3.0\AndroidManifest.xml:21:5-44
 MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\soura\.gradle\caches\transforms-3\f0c5bcbd6fe728f24432512d4c3e47c3\transformed\emoji2-1.3.0\AndroidManifest.xml:21:5-44
 MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\soura\.gradle\caches\transforms-3\60774f7b882bafe41430c66080cb7a48\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:21:5-44
@@ -470,10 +492,6 @@ MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\soura\.gradle\caches
 MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\soura\.gradle\caches\transforms-3\be6db285c02aa6fb708a8b5a62818ba3\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
 MERGED from [com.google.accompanist:accompanist-drawablepainter:0.32.0] C:\Users\soura\.gradle\caches\transforms-3\386c34b5b15f6df267dc55809842031d\transformed\accompanist-drawablepainter-0.32.0\AndroidManifest.xml:21:5-44
 MERGED from [com.google.accompanist:accompanist-drawablepainter:0.32.0] C:\Users\soura\.gradle\caches\transforms-3\386c34b5b15f6df267dc55809842031d\transformed\accompanist-drawablepainter-0.32.0\AndroidManifest.xml:21:5-44
-MERGED from [io.coil-kt:coil:2.6.0] C:\Users\soura\.gradle\caches\transforms-3\2deb18aae65b24ae2e47a531531ad6ec\transformed\coil-2.6.0\AndroidManifest.xml:5:5-44
-MERGED from [io.coil-kt:coil:2.6.0] C:\Users\soura\.gradle\caches\transforms-3\2deb18aae65b24ae2e47a531531ad6ec\transformed\coil-2.6.0\AndroidManifest.xml:5:5-44
-MERGED from [io.coil-kt:coil-base:2.6.0] C:\Users\soura\.gradle\caches\transforms-3\ea97a4046edad9c29443d669f39f58b9\transformed\coil-base-2.6.0\AndroidManifest.xml:5:5-44
-MERGED from [io.coil-kt:coil-base:2.6.0] C:\Users\soura\.gradle\caches\transforms-3\ea97a4046edad9c29443d669f39f58b9\transformed\coil-base-2.6.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.datastore:datastore-preferences:1.0.0] C:\Users\soura\.gradle\caches\transforms-3\a88e5899dbed0d8bf03b5d0b314dc8a5\transformed\datastore-preferences-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.datastore:datastore-preferences:1.0.0] C:\Users\soura\.gradle\caches\transforms-3\a88e5899dbed0d8bf03b5d0b314dc8a5\transformed\datastore-preferences-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.datastore:datastore:1.0.0] C:\Users\soura\.gradle\caches\transforms-3\3183dcfc1222015b55b269512d71bec8\transformed\datastore-1.0.0\AndroidManifest.xml:20:5-22:41
@@ -528,10 +546,10 @@ MERGED from [androidx.dynamicanimation:dynamicanimation:1.1.0-alpha03] C:\Users\
 MERGED from [androidx.dynamicanimation:dynamicanimation:1.1.0-alpha03] C:\Users\soura\.gradle\caches\transforms-3\d566f659ae57a61f15a564f8ab25fa50\transformed\dynamicanimation-1.1.0-alpha03\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.browser:browser:1.4.0] C:\Users\soura\.gradle\caches\transforms-3\175ad0e4056562107e89a632abb83937\transformed\browser-1.4.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.browser:browser:1.4.0] C:\Users\soura\.gradle\caches\transforms-3\175ad0e4056562107e89a632abb83937\transformed\browser-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\soura\.gradle\caches\transforms-3\0d3c09e5edc89e78c0b58bd960003a2f\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\soura\.gradle\caches\transforms-3\0d3c09e5edc89e78c0b58bd960003a2f\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.customview:customview:1.0.0] C:\Users\soura\.gradle\caches\transforms-3\62e97df562b41b648b21db946b1a27fe\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.customview:customview:1.0.0] C:\Users\soura\.gradle\caches\transforms-3\62e97df562b41b648b21db946b1a27fe\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\soura\.gradle\caches\transforms-3\bda3a4973321f61762f0bb5028aa00f3\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\soura\.gradle\caches\transforms-3\bda3a4973321f61762f0bb5028aa00f3\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\soura\.gradle\caches\transforms-3\c0009d7da3e267cc54e1096d68425c14\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\soura\.gradle\caches\transforms-3\c0009d7da3e267cc54e1096d68425c14\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\soura\.gradle\caches\transforms-3\7a165b09ea1fe0d844f0e9e46dd5c80e\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
@@ -554,14 +572,14 @@ MERGED from [androidx.sqlite:sqlite:2.4.0] C:\Users\soura\.gradle\caches\transfo
 MERGED from [androidx.sqlite:sqlite:2.4.0] C:\Users\soura\.gradle\caches\transforms-3\34fdf1b90cbf8918f6f79987109a6d85\transformed\sqlite-2.4.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\soura\.gradle\caches\transforms-3\de5b5d9fd080876fd805f841d19ad26a\transformed\annotation-experimental-1.4.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\soura\.gradle\caches\transforms-3\de5b5d9fd080876fd805f841d19ad26a\transformed\annotation-experimental-1.4.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\soura\.gradle\caches\transforms-3\837439d96281c1935a23fe0ba163847f\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\soura\.gradle\caches\transforms-3\837439d96281c1935a23fe0ba163847f\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\soura\.gradle\caches\transforms-3\5cd6d914a2f701f6a90171eea8c0d0e4\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\soura\.gradle\caches\transforms-3\5cd6d914a2f701f6a90171eea8c0d0e4\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-components:17.1.5] C:\Users\soura\.gradle\caches\transforms-3\7680bff14a64705d8e560cf7973c656c\transformed\firebase-components-17.1.5\AndroidManifest.xml:18:5-44
 MERGED from [com.google.firebase:firebase-components:17.1.5] C:\Users\soura\.gradle\caches\transforms-3\7680bff14a64705d8e560cf7973c656c\transformed\firebase-components-17.1.5\AndroidManifest.xml:18:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\soura\.gradle\caches\transforms-3\e0e4c687564c7c663325b3c2f51a695d\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\soura\.gradle\caches\transforms-3\e0e4c687564c7c663325b3c2f51a695d\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\soura\.gradle\caches\transforms-3\837439d96281c1935a23fe0ba163847f\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\soura\.gradle\caches\transforms-3\837439d96281c1935a23fe0ba163847f\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\soura\.gradle\caches\transforms-3\a3530062488e1f3fa70a14b3126c1fa8\transformed\profileinstaller-1.3.1\AndroidManifest.xml:21:5-44
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\soura\.gradle\caches\transforms-3\a3530062488e1f3fa70a14b3126c1fa8\transformed\profileinstaller-1.3.1\AndroidManifest.xml:21:5-44
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\soura\.gradle\caches\transforms-3\bac86bbaf13fe9ed883d28436c33b3c8\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
@@ -572,6 +590,8 @@ MERGED from [androidx.databinding:viewbinding:7.4.2] C:\Users\soura\.gradle\cach
 MERGED from [androidx.databinding:viewbinding:7.4.2] C:\Users\soura\.gradle\caches\transforms-3\e869534a904a08641077560245b2d274\transformed\viewbinding-7.4.2\AndroidManifest.xml:5:5-44
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\soura\.gradle\caches\transforms-3\581ea94d2355c4055552cb05da2ba5c2\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\soura\.gradle\caches\transforms-3\581ea94d2355c4055552cb05da2ba5c2\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\soura\.gradle\caches\transforms-3\18cdc35bfcaa1a74c6f83f746ccd3902\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\soura\.gradle\caches\transforms-3\18cdc35bfcaa1a74c6f83f746ccd3902\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.exifinterface:exifinterface:1.3.7] C:\Users\soura\.gradle\caches\transforms-3\007123f67cada047940e8a2c43a3ab71\transformed\exifinterface-1.3.7\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.exifinterface:exifinterface:1.3.7] C:\Users\soura\.gradle\caches\transforms-3\007123f67cada047940e8a2c43a3ab71\transformed\exifinterface-1.3.7\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\soura\.gradle\caches\transforms-3\55b62bf98aa7ae6104b3d2a984b0b7e1\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
@@ -583,9 +603,9 @@ MERGED from [com.google.dagger:dagger-lint-aar:2.49] C:\Users\soura\.gradle\cach
 	tools:overrideLibrary
 		ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\soura\.gradle\caches\transforms-3\11f603d71055283b60532e260bbccb2c\transformed\firebase-auth-22.3.1\AndroidManifest.xml:23:9-61
 	android:targetSdkVersion
-		INJECTED from C:\Users\soura\AndroidStudioProjects\Avenue\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\soura\AndroidStudioProjects\ParkEase\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\soura\AndroidStudioProjects\Avenue\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\soura\AndroidStudioProjects\ParkEase\app\src\main\AndroidManifest.xml
 service#com.google.firebase.components.ComponentDiscoveryService
 ADDED from [com.google.firebase:firebase-storage-ktx:20.3.0] C:\Users\soura\.gradle\caches\transforms-3\fe9fea2d7d813907b8e1ae2ce1bd6923\transformed\firebase-storage-ktx-20.3.0\AndroidManifest.xml:9:9-15:19
 MERGED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\soura\.gradle\caches\transforms-3\ca60c0e54500dd5dcf1a996820023fb8\transformed\firebase-storage-20.3.0\AndroidManifest.xml:27:9-36:19

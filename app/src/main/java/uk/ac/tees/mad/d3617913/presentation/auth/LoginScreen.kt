@@ -24,6 +24,7 @@ import androidx.lifecycle.viewmodel.compose.viewModel
 import uk.ac.tees.mad.d3617913.R
 import uk.ac.tees.mad.d3617913.data.LoginUIEvents
 import uk.ac.tees.mad.d3617913.data.LoginViewModel
+import uk.ac.tees.mad.d3617913.lottie.LoadingScreen
 import uk.ac.tees.mad.d3617913.presentation.common.ButtonComponent
 import uk.ac.tees.mad.d3617913.presentation.common.ClickableLoginTextComponent
 import uk.ac.tees.mad.d3617913.presentation.common.DividerTextComponent
@@ -110,7 +111,8 @@ fun LoginScreen(
             }
         }
         if (loginViewModel.loginInProgress.value) {
-            CircularProgressIndicator()
+//            CircularProgressIndicator()
+            LoadingScreen()
         }
     }
 }

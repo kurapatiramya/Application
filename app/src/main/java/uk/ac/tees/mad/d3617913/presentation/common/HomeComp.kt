@@ -24,13 +24,16 @@ import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.CarRental
 import androidx.compose.material.icons.filled.LocationOn
 import androidx.compose.material.icons.filled.Notifications
+import androidx.compose.material.icons.filled.Refresh
 import androidx.compose.material.icons.filled.Star
 import androidx.compose.material.icons.filled.Timelapse
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
+import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.Icon
+import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -45,6 +48,7 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.platform.LocalFocusManager
 import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
@@ -52,16 +56,27 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import androidx.navigation.NavHostController
 import uk.ac.tees.mad.d3617913.R
 import uk.ac.tees.mad.d3617913.location.LocationUtils
 import uk.ac.tees.mad.d3617913.presentation.screens.home.CustomSearchBar
 import uk.ac.tees.mad.d3617913.presentation.screens.home.ParkingSpot
+import uk.ac.tees.mad.d3617913.presentation.screens.home.parkingSpots
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun HomeTopCard() {
 
     val context = LocalContext.current
+
+    var searchQuery by remember {
+        mutableStateOf("")
+    }
+    val focusManager = LocalFocusManager.current
+
+    var filteredParkingSpots by remember { mutableStateOf(parkingSpots) }
+
+    var refreshKey by remember { mutableStateOf(0) }
 
     var location by remember { mutableStateOf<String?>(null) }
 
@@ -169,11 +184,28 @@ fun HomeTopCard() {
 }
 
 @Composable
-fun ParkingSpotCard(parkingSpot: ParkingSpot, onClick: () -> Unit) {
+fun LoadingState(refreshKey: () -> Unit) {
+    Column {
+        CircularProgressIndicator()
+        IconButton(onClick = refreshKey) {
+            Icon(imageVector = Icons.Default.Refresh, contentDescription = "Refresh")
+        }
+    }
+}
+
+@Composable
+fun LoadedState(location: String) {
+    Text(text = location)
+}
+
+@Composable
+fun ParkingSpotCard(parkingSpot: ParkingSpot, navController: NavHostController) {
     Card(
         modifier = Modifier
             .fillMaxWidth()
-            .clickable(onClick = onClick),
+            .clickable {
+                navController.navigate("booking/${parkingSpot.id}")
+            },
         colors = CardDefaults.cardColors(colorResource(id = R.color.white)),
         elevation = CardDefaults.elevatedCardElevation(12.dp)
     ) {
@@ -196,7 +228,7 @@ fun ParkingSpotCard(parkingSpot: ParkingSpot, onClick: () -> Unit) {
                 )
                 Spacer(modifier = Modifier.weight(1f))
                 Text(
-                    text = "$" + parkingSpot.pricePerHour.toString() + " /hr",
+                    text = "£" + parkingSpot.pricePerHour.toString() + " /hr",
                     style = MaterialTheme.typography.headlineLarge,
                     fontWeight = FontWeight.Bold,
                     fontSize = 22.sp

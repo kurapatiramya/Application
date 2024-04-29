@@ -23,6 +23,7 @@ import uk.ac.tees.mad.d3617913.presentation.common.MyTextFieldComponent
 import uk.ac.tees.mad.d3617913.R
 import uk.ac.tees.mad.d3617913.data.SignupViewModel
 import uk.ac.tees.mad.d3617913.data.SignupUIEvents
+import uk.ac.tees.mad.d3617913.lottie.LoadingScreen
 import uk.ac.tees.mad.d3617913.presentation.common.ButtonComponent
 import uk.ac.tees.mad.d3617913.presentation.common.ClickableLoginTextComponent
 import uk.ac.tees.mad.d3617913.presentation.common.DividerTextComponent
@@ -128,7 +129,8 @@ fun SignUpScreen(
             }
         }
         if (loginViewModel.signUpInProgress.value) {
-            CircularProgressIndicator()
+//            CircularProgressIndicator()
+            LoadingScreen()
         }
     }
 }

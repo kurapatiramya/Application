@@ -181,6 +181,7 @@ fun AppScreen() { // Provide a default value for parkingSpot
 // Dummy parking spot data
 fun getDummyParkingSpot(): ParkingSpot {
     return ParkingSpot(
+        id = "1",
         name = "Central Parking Garage",
         location = "Midtown Manhattan",
         description = "This is a parking garage located in the heart of Manhattan. It is a multi-level parking garage with a total of 100 parking spots. The garage is open 24/7 and is monitored by security cameras. The garage is well-lit and has a clean and safe environment. The garage is conveniently located near many popular attractions and is within walking distance of many restaurants, shops, and theaters.",

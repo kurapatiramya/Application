@@ -37,14 +37,19 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
 import uk.ac.tees.mad.d3617913.R
+import uk.ac.tees.mad.d3617913.presentation.auth.LoginScreen
+import uk.ac.tees.mad.d3617913.presentation.screens.booking.BookingScreen
 import uk.ac.tees.mad.d3617913.presentation.screens.explore.ExploreScreen
 import uk.ac.tees.mad.d3617913.presentation.screens.home.HomeScreen
+import uk.ac.tees.mad.d3617913.presentation.screens.home.ParkingSpot
+import uk.ac.tees.mad.d3617913.presentation.screens.home.parkingSpots
 import uk.ac.tees.mad.d3617913.presentation.screens.profile.ProfileData
 import uk.ac.tees.mad.d3617913.presentation.screens.profile.ProfileScreen
 import uk.ac.tees.mad.d3617913.ui.theme.ParkEaseTheme
 
 @Composable
 fun BottomNavigation() {
+
     ParkEaseTheme(
         darkTheme = false, dynamicColor = false
     ) {
@@ -100,6 +105,7 @@ fun BottomNavigation() {
     }
 }
 
+
 //Bottom Navigation Bar for Home Screen
 @Composable
 fun BottomNav(
@@ -108,7 +114,9 @@ fun BottomNav(
     onItemClicked: (BottomNavigationItem) -> Unit
 ) {
     NavigationBar(
-        modifier = Modifier.shadow(2.dp).height(70.dp),
+        modifier = Modifier
+            .shadow(2.dp)
+            .height(70.dp),
         containerColor = colorResource(id = R.color.card_background)
     ) {
         //to remember back state
@@ -163,7 +171,9 @@ fun NavigationForHome(
 
     NavHost(navController = navHostController, startDestination = "Home_Screen") {
         composable("Home_Screen") {
-            HomeScreen()
+            HomeScreen(
+                navController = navHostController
+            )
         }
 
         composable("Explore_Screen") {
@@ -177,8 +187,23 @@ fun NavigationForHome(
                     name = "John Doe",
                     profileImage = painterResource(id = R.drawable.profile_pic_2),
                     gender = "F"
-                )
+                ),
+                navController = navHostController
             )
+        }
+
+        composable("login") {
+            LoginScreen()
+        }
+
+        composable("booking/{parkingSpotId}") { backStackEntry ->
+            val parkingSpotId = backStackEntry.arguments?.getString("parkingSpotId")
+            val parkingSpot = parkingSpots.find { it.id == parkingSpotId }
+            if (parkingSpot != null) {
+                BookingScreen(parkingSpot = parkingSpot)
+            } else {
+                // Handle the case where the parkingSpot is not found
+            }
         }
 
     }

@@ -126,26 +126,26 @@ fun MapScreen(
                     )
                 }
             }
-            Row(
-                horizontalArrangement = Arrangement.Center
-            ) {
-                TextField(
-                    value = searchText.value,
-                    onValueChange = { searchText.value = it },
-                    leadingIcon = {
-                        Icon(
-                            imageVector = Icons.Default.Search,
-                            contentDescription = null
-                        )
-                    },
-                    maxLines = 1,
-                    modifier = Modifier
-//                        .align(Alignment.TopCenter)
-                        .padding(top = 50.dp, start = 24.dp)
-                        .clip(CircleShape)
-                        .background(Color.Transparent),
-                    placeholder = { Text("Search") }
-                )
+//            Row(
+//                horizontalArrangement = Arrangement.Center
+//            ) {
+//                TextField(
+//                    value = searchText.value,
+//                    onValueChange = { searchText.value = it },
+//                    leadingIcon = {
+//                        Icon(
+//                            imageVector = Icons.Default.Search,
+//                            contentDescription = null
+//                        )
+//                    },
+//                    maxLines = 1,
+//                    modifier = Modifier
+////                        .align(Alignment.TopCenter)
+//                        .padding(top = 50.dp, start = 24.dp)
+//                        .clip(CircleShape)
+//                        .background(Color.Transparent),
+//                    placeholder = { Text("Search") }
+//                )
 
 //            Box(
 //                modifier = Modifier
@@ -169,7 +169,7 @@ fun MapScreen(
 
                 Box(
                     modifier = Modifier
-                        .fillMaxSize()
+//                        .fillMaxSize()
                         .padding(start = 8.dp, top = 50.dp)
                 ) {
                     Column {
@@ -220,7 +220,7 @@ fun MapScreen(
         }
     }
 
-}
+//}
 
 fun createMarkers(locations: List<PredefinedParkingLocations>, map: GoogleMap): List<Marker> {
     val markers = mutableListOf<Marker>()

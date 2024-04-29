@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "uk.ac.tees.mad.d3617913.app-mergeDebugResources-81:/values-night-v8/values-night-v8.xml",
+            "outputFile": "uk.ac.tees.mad.d3617913.app-mergeDebugResources-84:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
                     "source": "C:\\Users\\soura\\.gradle\\caches\\transforms-3\\8a2532cc718d5234a5d6c575743d27f6\\transformed\\core-splashscreen-1.0.1\\res\\values-night-v8\\values-night-v8.xml",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\soura\\AndroidStudioProjects\\Avenue\\app\\src\\main\\res\\values-night\\color.xml",
+                    "source": "C:\\Users\\soura\\AndroidStudioProjects\\ParkEase\\app\\src\\main\\res\\values-night\\color.xml",
                     "from": {
                         "startLines": "5,2,6,7,8,3,4",
                         "startColumns": "4,4,4,4,4,4,4",
@@ -35,6 +35,23 @@
                         "startOffsets": "55,94,144,195,241,283,331",
                         "endColumns": "38,49,50,45,41,47,44",
                         "endOffsets": "89,139,190,236,278,326,371"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\soura\\.gradle\\caches\\transforms-3\\fc76fd70855a3b97a52e5910429cdf58\\transformed\\appcompat-1.6.1\\res\\values-night-v8\\values-night-v8.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,125,209,293,389,491,593,687",
+                        "endColumns": "69,83,83,95,101,101,93,88",
+                        "endOffsets": "120,204,288,384,486,588,682,771"
+                    },
+                    "to": {
+                        "startLines": "10,11,12,13,14,15,16,17",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "462,532,616,700,796,898,1000,1094",
+                        "endColumns": "69,83,83,95,101,101,93,88",
+                        "endOffsets": "527,611,695,791,893,995,1089,1178"
                     }
                 }
             ]
